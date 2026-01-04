@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Metin Bitwy" nameDescription="a metin bitwy" race="fire" experience="1000" speed="0">
 	<health now="2000" max="2000" />
-	<look typeex="1354" corpse="3608" />
+	<look typeex="1354" corpse="2952" />
 	<targetchange interval="4000" chance="20" />
 	<flags>
 		<flag summonable="0" />
@@ -47,7 +47,7 @@
 		<immunity paralyze="1" />
 		<immunity invisible="1" />
 	</immunities>
-	<summons maxSummons="10">
+	<summons maxSummons="6">
 		<summon name="bear" interval="200" chance="10" />
 		<summon name="wolf" interval="200" chance="10" />
 		<summon name="tiger" interval="200" chance="10" />
