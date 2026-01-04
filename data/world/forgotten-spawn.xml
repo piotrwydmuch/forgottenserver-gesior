@@ -386,9 +386,6 @@
 		<monster name="Snake" x="-3" y="2" z="7" spawntime="60" direction="2" />
 		<monster name="Rabbit" x="0" y="2" z="7" spawntime="180" />
 	</spawn>
-	<spawn centerx="582" centery="160" centerz="7" radius="1">
-		<npc name="The Oracle" x="0" y="0" z="7" spawntime="60" direction="2" />
-	</spawn>
 	<spawn centerx="390" centery="202" centerz="7" radius="1">
 		<npc name="Deruno" x="0" y="0" z="7" spawntime="60" direction="1" />
 	</spawn>
