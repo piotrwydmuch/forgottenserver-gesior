@@ -59,9 +59,6 @@
 		<monster name="Wasp" x="-1" y="-1" z="5" spawntime="60" />
 		<monster name="Wasp" x="0" y="2" z="5" spawntime="60" />
 	</spawn>
-	<spawn centerx="560" centery="170" centerz="5" radius="1">
-		<monster name="Rat" x="0" y="0" z="5" spawntime="60" direction="2" />
-	</spawn>
 	<spawn centerx="305" centery="349" centerz="5" radius="5">
 		<monster name="Orc Leader" x="1" y="-3" z="5" spawntime="60" />
 		<monster name="Orc Spearman" x="-2" y="1" z="5" spawntime="60" />
@@ -176,9 +173,6 @@
 		<monster name="Pig" x="0" y="-2" z="6" spawntime="240" />
 		<monster name="Pig" x="-2" y="0" z="6" spawntime="240" />
 		<monster name="Pig" x="0" y="3" z="6" spawntime="240" />
-	</spawn>
-	<spawn centerx="558" centery="166" centerz="6" radius="1">
-		<monster name="Rat" x="0" y="0" z="6" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="313" centery="328" centerz="6" radius="5">
 		<monster name="Orc Berserker" x="-1" y="-3" z="6" spawntime="60" />
@@ -384,28 +378,17 @@
 		<monster name="Troll" x="4" y="-1" z="7" spawntime="60" />
 		<monster name="Troll" x="-4" y="0" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="103" centery="120" centerz="7" radius="5" />
+	<spawn centerx="103" centery="120" centerz="7" radius="5">
+		<monsters x="-1" y="1" z="7" spawntime="180">
+			<monster name="Rabbit" chance="70" />
+			<monster name="Skunk" chance="30" />
+		</monsters>
+	</spawn>
 	<spawn centerx="86" centery="122" centerz="7" radius="1">
 		<npc name="Riona" x="0" y="0" z="7" spawntime="60" direction="3" />
 	</spawn>
 	<spawn centerx="97" centery="130" centerz="7" radius="5">
-		<monster name="Snake" x="-3" y="2" z="7" spawntime="60" direction="2" />
 		<monster name="Rabbit" x="0" y="2" z="7" spawntime="180" />
-	</spawn>
-	<spawn centerx="537" centery="156" centerz="7" radius="1">
-		<monster name="Snake" x="0" y="0" z="7" spawntime="60" direction="2" />
-	</spawn>
-	<spawn centerx="533" centery="159" centerz="7" radius="1">
-		<monster name="Rat" x="0" y="0" z="7" spawntime="60" direction="2" />
-	</spawn>
-	<spawn centerx="550" centery="159" centerz="7" radius="1">
-		<monster name="Snake" x="0" y="0" z="7" spawntime="60" direction="2" />
-	</spawn>
-	<spawn centerx="540" centery="168" centerz="7" radius="1">
-		<monster name="Cave Rat" x="0" y="0" z="7" spawntime="60" direction="2" />
-	</spawn>
-	<spawn centerx="539" centery="182" centerz="7" radius="1">
-		<monster name="Spider" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="390" centery="202" centerz="7" radius="1">
 		<npc name="Deruno" x="0" y="0" z="7" spawntime="60" direction="1" />
@@ -764,7 +747,7 @@
 	</spawn>
 	<spawn centerx="328" centery="520" centerz="7" radius="5">
 		<monster name="Wolf" x="-2" y="-2" z="7" spawntime="60" />
-		<monster name="War Wolf" x="0" y="1" z="7" spawntime="60" />
+		<monster name="War wolf" x="0" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="152" centery="521" centerz="7" radius="5">
 		<monster name="Giant Spider" x="-2" y="-2" z="7" spawntime="60" />
@@ -968,15 +951,6 @@
 	<spawn centerx="95" centery="142" centerz="8" radius="5">
 		<monster name="Rat" x="2" y="-1" z="8" spawntime="60" />
 		<monster name="Rat" x="0" y="1" z="8" spawntime="60" />
-	</spawn>
-	<spawn centerx="540" centery="190" centerz="8" radius="1">
-		<monster name="Spider" x="0" y="0" z="8" spawntime="60" direction="2" />
-	</spawn>
-	<spawn centerx="546" centery="199" centerz="8" radius="1">
-		<monster name="Rat" x="0" y="0" z="8" spawntime="60" direction="2" />
-	</spawn>
-	<spawn centerx="540" centery="201" centerz="8" radius="1">
-		<monster name="Rat" x="0" y="0" z="8" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="211" centery="374" centerz="8" radius="5">
 		<monster name="Rotworm" x="4" y="-3" z="8" spawntime="60" />
