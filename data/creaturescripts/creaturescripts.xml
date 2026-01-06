@@ -9,4 +9,5 @@
 	<event type="death" name="DropLoot" script="droploot.lua" />
 	<event type="extendedopcode" name="ExtendedOpcode" script="extendedopcode.lua" />
 	<event type="kill" name="TaskKill" script="kill_task.lua"/>
+	<event type="kill" name="MonsterStatistics" script="monster_statistics.lua"/>
 </creaturescripts>

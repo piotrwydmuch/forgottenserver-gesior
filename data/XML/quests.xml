@@ -11,4 +11,10 @@
 			<missionstate id="5" description="Example description 2" />
 		</mission>
 	</quest>
+	<!-- Quest dla statystyk potworów - zawsze aktywny -->
+	<quest name="Monster Statistics" startstorageid="19999" startstoragevalue="1">
+		<mission name="View Statistics" storageid="19999" startvalue="1" endvalue="1" ignoreendvalue="true">
+			<missionstate id="1" description="Click to view your monster kill statistics" />
+		</mission>
+	</quest>
 </quests>

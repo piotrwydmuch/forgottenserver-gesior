@@ -30,6 +30,12 @@ function onLogin(player)
   player:registerEvent("DropLoot")
   player:registerEvent("TaskKill")
   player:registerEvent("TaskExtendedOpcode")
+  player:registerEvent("MonsterStatistics")
+  
+  -- Inicjalizacja storage dla questu statystyk potworów (storage 19999 = quest zawsze aktywny)
+  if player:getStorageValue(19999) < 1 then
+    player:setStorageValue(19999, 1)
+  end
 
   -- Send task data after login
   addEvent(function()
