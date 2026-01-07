@@ -5,7 +5,7 @@ local skillBooks = {
 	-- Magic Level Skill Book - dodaje ekwiwalent zużycia 5000 many
 	[1984] = {
 		type = "magic_level",
-		value = 5000,
+		value = 8000,
 		name = "Magic Level Skill Book",
 		message = "You have gained the equivalent of 5000 mana spent."
 	},
@@ -14,7 +14,7 @@ local skillBooks = {
 	[1985] = {
 		type = "skill",
 		skill = SKILL_SWORD,
-		value = 500,
+		value = 1500,
 		name = "Sword Fighting Skill Book",
 		message = "You have gained 500 sword fighting skill tries."
 	},
@@ -23,7 +23,7 @@ local skillBooks = {
 	[1983] = {
 		type = "skill",
 		skill = SKILL_DISTANCE,
-		value = 500,
+		value = 1500,
 		name = "Distance Fighting Skill Book",
 		message = "You have gained 500 distance fighting skill tries."
 	}
