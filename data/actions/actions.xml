@@ -179,4 +179,7 @@
 	<action fromid="9443" toid="9444" script="other/watch.lua" />
 	<action fromid="18488" toid="18492" script="other/skill_trainer.lua" />
 	<action itemid="20252" script="other/bed_modification_kits.lua" />
+	
+	<!-- Skill Books -->
+	<action fromid="4855" toid="4858" script="other/skill_books.lua" />
 </actions>

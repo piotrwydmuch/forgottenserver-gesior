@@ -8125,21 +8125,21 @@
 		<attribute key="description" value="It contains some strange symbols of the lizard language." />
 		<attribute key="weight" value="100" />
 	</item>
-	<item id="4855" article="an" name="elven poetry book">
-		<attribute key="description" value="It contains a collection of beautiful elven poems." />
+	<item id="4855" article="a" name="magic level skill book">
+		<attribute key="description" value="Using this book will grant you the equivalent of 5000 mana spent." />
 		<attribute key="weight" value="1300" />
 	</item>
-	<item id="4856" article="an" name="ice pick">
-		<attribute key="description" value="It might come in handy in cold regions." />
-		<attribute key="weight" value="7000" />
+	<item id="4856" article="a" name="sword fighting skill book">
+		<attribute key="description" value="Using this book will grant you 500 sword fighting skill tries." />
+		<attribute key="weight" value="1300" />
 	</item>
-	<item id="4857" article="a" name="wrinkled parchment">
-		<attribute key="description" value="It is covered with strange numbers." />
-		<attribute key="weight" value="200" />
+	<item id="4857" article="a" name="distance fighting skill book">
+		<attribute key="description" value="Using this book will grant you 500 distance fighting skill tries." />
+		<attribute key="weight" value="1300" />
 	</item>
-	<item id="4858" article="a" name="funeral urn">
-		<attribute key="description" value="It contains the ashes of a lizard high priest." />
-		<attribute key="weight" value="10000" />
+	<item id="4858" article="a" name="fishing skill book">
+		<attribute key="description" value="Using this book will grant you 100 fishing skill tries." />
+		<attribute key="weight" value="1300" />
 	</item>
 	<item id="4859" article="a" name="small cask">
 		<attribute key="description" value="It is filled with the blood of the snake god." />
