@@ -11,4 +11,10 @@
 			<missionstate id="5" description="Example description 2" />
 		</mission>
 	</quest>
+	<quest name="Initiate Metin Quest" startstorageid="30036" startstoragevalue="1">
+		<mission name="Defeat Initiate Metin" storageid="30036" startvalue="1" endvalue="2">
+			<missionstate id="1" description="The quest giver has summoned Initiate Metin. You must defeat it and return to the quest giver." />
+			<missionstate id="2" description="You have successfully defeated Initiate Metin! The quest is complete." />
+		</mission>
+	</quest>
 </quests>

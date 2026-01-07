@@ -20,6 +20,7 @@ PlayerStorageKeys = {
 	insectoidCell = 30033,
 	vortexTamer = 30034,
 	mutatedPumpkin = 30035,
+	initiateMetinQuest = 30036,
 	achievementsBase = 300000,
 	achievementsCounter = 20000,
 }

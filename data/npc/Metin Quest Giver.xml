@@ -1,0 +1,8 @@
+<npc name="Metin Quest Giver" script="metin_quest_giver.lua" walkinterval="2000" speechbubble="3">
+	<look typeex="138" />
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|! I have a mission for you if you are interested." />
+		<parameter key="message_walkaway" value="Goodbye, |PLAYERNAME|!" />
+		<parameter key="message_farewell" value="Goodbye, |PLAYERNAME|!" />
+	</parameters>
+</npc>
