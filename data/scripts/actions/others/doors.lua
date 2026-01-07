@@ -58,11 +58,24 @@ local door = Action()
 function door.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	local itemId = item:getId()
 	if table.contains(closedQuestDoors, itemId) then
-		if player:getStorageValue(item.actionid) ~= -1 then
-			item:transform(itemId + 1)
-			player:teleportTo(toPosition, true)
+		local storageValue = player:getStorageValue(item.actionid)
+		-- Sprawdzamy czy quest jest ukończony (storage >= 2) lub czy storage jest ustawione (dla kompatybilności z innymi questami)
+		-- Dla Initiate Metin Quest (actionid 30036) wymagamy storage >= 2
+		if item.actionid == 30036 then
+			if storageValue >= 2 then
+				item:transform(itemId + 1)
+				player:teleportTo(toPosition, true)
+			else
+				player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The door seems to be sealed against unwanted intruders.")
+			end
 		else
-			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The door seems to be sealed against unwanted intruders.")
+			-- Dla innych questów zachowujemy oryginalną logikę (storage ~= -1)
+			if storageValue ~= -1 then
+				item:transform(itemId + 1)
+				player:teleportTo(toPosition, true)
+			else
+				player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The door seems to be sealed against unwanted intruders.")
+			end
 		end
 		return true
 	elseif table.contains(closedLevelDoors, itemId) then
