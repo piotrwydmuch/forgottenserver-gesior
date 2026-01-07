@@ -3,7 +3,7 @@
 
 local skillBooks = {
 	-- Magic Level Skill Book - dodaje ekwiwalent zużycia 5000 many
-	[4855] = {
+	[1984] = {
 		type = "magic_level",
 		value = 5000,
 		name = "Magic Level Skill Book",
@@ -11,7 +11,7 @@ local skillBooks = {
 	},
 	
 	-- Sword Fighting Skill Book - dodaje 500 trafień
-	[4856] = {
+	[1985] = {
 		type = "skill",
 		skill = SKILL_SWORD,
 		value = 500,
@@ -20,21 +20,12 @@ local skillBooks = {
 	},
 	
 	-- Distance Fighting Skill Book - dodaje 500 trafień
-	[4857] = {
+	[1983] = {
 		type = "skill",
 		skill = SKILL_DISTANCE,
 		value = 500,
 		name = "Distance Fighting Skill Book",
 		message = "You have gained 500 distance fighting skill tries."
-	},
-	
-	-- Fishing Skill Book - dodaje 100 użyć wędki
-	[4858] = {
-		type = "skill",
-		skill = SKILL_FISHING,
-		value = 100,
-		name = "Fishing Skill Book",
-		message = "You have gained 100 fishing skill tries."
 	}
 }
 

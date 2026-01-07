@@ -181,5 +181,5 @@
 	<action itemid="20252" script="other/bed_modification_kits.lua" />
 	
 	<!-- Skill Books -->
-	<action fromid="4855" toid="4858" script="other/skill_books.lua" />
+	<action fromid="1983" toid="1985" script="other/skill_books.lua" />
 </actions>
