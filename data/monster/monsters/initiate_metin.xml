@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Initiate Metin" nameDescription="an initiate metin" race="fire" experience="1000" speed="0">
-	<health now="150" max="150" />
+	<health now="100" max="100" />
 	<look typeex="1354" corpse="2952" />
 	<targetchange interval="4000" chance="20" />
 	<flags>
@@ -42,9 +42,9 @@
 		<immunity invisible="1" />
 	</immunities>
 	<summons maxSummons="6">
-		<summon name="Sandcrawler" interval="1000" chance="10" />
-		<summon name="Bug" interval="1000" chance="10" />
-		<summon name="Snake" interval="1000" chance="10" />
+		<summon name="Bat" interval="2000" chance="5" />
+		<summon name="Bug" interval="2000" chance="5" />
+		<summon name="Snake" interval="2000" chance="5" />
 	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="SO STONE SO STONE SO STONE" yell="1" />
