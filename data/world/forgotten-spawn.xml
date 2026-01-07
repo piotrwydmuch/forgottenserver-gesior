@@ -981,6 +981,9 @@
 	<spawn centerx="540" centery="190" centerz="8" radius="1">
 		<monster name="Spider" x="0" y="0" z="8" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="544" centery="196" centerz="8" radius="1">
+		<npc name="Metin Quest Giver" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="546" centery="199" centerz="8" radius="1">
 		<monster name="Rat" x="0" y="0" z="8" spawntime="60" direction="2" />
 	</spawn>
