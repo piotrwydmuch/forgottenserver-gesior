@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Initiate Metin" nameDescription="an initiate metin" race="fire" experience="1000" speed="0">
+	<health now="150" max="150" />
+	<look typeex="1354" corpse="2952" />
+	<targetchange interval="4000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="70" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-10" />
+		<attack name="fire" interval="2000" chance="20" range="7" radius="3" target="0" min="-5" max="-25">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+	</attacks>
+	<defenses armor="4" defense="4">
+		<defense name="healing" interval="2000" chance="15" min="8" max="25">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="5" />
+		<element deathPercent="5" />
+		<element energyPercent="5" />
+		<element earthPercent="5" />
+		<element icePercent="-12" />
+		<element holyPercent="-12" />
+	</elements>
+	<immunities>
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<summons maxSummons="6">
+		<summon name="Sandcrawler" interval="1000" chance="10" />
+		<summon name="Bug" interval="1000" chance="10" />
+		<summon name="Snake" interval="1000" chance="10" />
+	</summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="SO STONE SO STONE SO STONE" yell="1" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="100" chance="100000" />
+		<item name="mana potion" chance="100000" />
+		<item name="health potion" chance="100000" />
+	</loot>
+</monster>

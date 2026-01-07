@@ -334,6 +334,7 @@
 	<monster name="Infernal Frog" file="monsters/infernal_frog.xml" />
 	<monster name="Infernalist" file="monsters/infernalist.xml" />
 	<monster name="Infernatil" file="monsters/infernatil.xml" />
+	<monster name="Initiate Metin" file="monsters/initiate_metin.xml" />
 	<monster name="Inky" file="monsters/inky.xml" />
 	<monster name="Insect Swarm" file="monsters/insect_swarm.xml" />
 	<monster name="Insectoid Scout" file="monsters/insectoid_scout.xml" />
