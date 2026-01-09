@@ -349,6 +349,9 @@
 	<spawn centerx="267" centery="592" centerz="6" radius="5">
 		<monster name="Tarantula" x="-2" y="0" z="6" spawntime="60" />
 	</spawn>
+	<spawn centerx="659" centery="717" centerz="6" radius="1">
+		<npc name="Deruno" x="0" y="0" z="6" spawntime="60" direction="3" />
+	</spawn>
 	<spawn centerx="103" centery="68" centerz="7" radius="5">
 		<monster name="Wasp" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
@@ -901,6 +904,18 @@
 		<monster name="Poison Spider" x="-4" y="-3" z="7" spawntime="60" />
 		<monster name="Tarantula" x="-3" y="-1" z="7" spawntime="60" />
 		<monster name="Tarantula" x="1" y="2" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="665" centery="698" centerz="7" radius="1">
+		<npc name="Banker" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="655" centery="702" centerz="7" radius="1">
+		<npc name="Riona" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="676" centery="713" centerz="7" radius="1">
+		<npc name="Eryn" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="681" centery="721" centerz="7" radius="1">
+		<npc name="Tyoric" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="76" centery="70" centerz="8" radius="5">
 		<monster name="Skeleton" x="-1" y="-1" z="8" spawntime="60" />
