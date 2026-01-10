@@ -349,6 +349,9 @@
 	<spawn centerx="267" centery="592" centerz="6" radius="5">
 		<monster name="Tarantula" x="-2" y="0" z="6" spawntime="60" />
 	</spawn>
+	<spawn centerx="659" centery="717" centerz="6" radius="1">
+		<npc name="Deruno" x="0" y="0" z="6" spawntime="60" direction="3" />
+	</spawn>
 	<spawn centerx="103" centery="68" centerz="7" radius="5">
 		<monster name="Wasp" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
@@ -902,6 +905,18 @@
 		<monster name="Tarantula" x="-3" y="-1" z="7" spawntime="60" />
 		<monster name="Tarantula" x="1" y="2" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="665" centery="698" centerz="7" radius="1">
+		<npc name="Banker" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="655" centery="702" centerz="7" radius="1">
+		<npc name="Riona" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="676" centery="713" centerz="7" radius="1">
+		<npc name="Eryn" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="681" centery="721" centerz="7" radius="1">
+		<npc name="Tyoric" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
 	<spawn centerx="76" centery="70" centerz="8" radius="5">
 		<monster name="Skeleton" x="-1" y="-1" z="8" spawntime="60" />
 	</spawn>
@@ -982,6 +997,7 @@
 		<monster name="Spider" x="0" y="0" z="8" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="544" centery="196" centerz="8" radius="1">
+		<npc name="Metin Quest Giver" x="0" y="-1" z="8" spawntime="60" direction="2" />
 		<npc name="Metin Quest Giver" x="0" y="0" z="8" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="546" centery="199" centerz="8" radius="1">
@@ -1285,6 +1301,48 @@
 	<spawn centerx="228" centery="596" centerz="9" radius="5">
 		<monster name="Bat" x="-1" y="-1" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="682" centery="715" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="655" centery="719" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="664" centery="719" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="672" centery="719" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="687" centery="720" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="680" centery="722" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="648" centery="728" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="655" centery="728" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="682" centery="735" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="655" centery="738" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="664" centery="738" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="672" centery="738" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="687" centery="739" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="679" centery="741" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="80" centery="81" centerz="10" radius="5">
 		<monster name="Spider" x="-3" y="-2" z="10" spawntime="60" />
 		<monster name="Bug" x="1" y="-2" z="10" spawntime="60" />
@@ -1368,6 +1426,30 @@
 	<spawn centerx="220" centery="602" centerz="10" radius="5">
 		<monster name="Scorpion" x="-2" y="-1" z="10" spawntime="60" />
 		<monster name="Scorpion" x="0" y="1" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="699" centery="695" centerz="10" radius="1">
+		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="712" centery="695" centerz="10" radius="1">
+		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="698" centery="700" centerz="10" radius="1">
+		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="691" centery="711" centerz="10" radius="1">
+		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="706" centery="711" centerz="10" radius="1">
+		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="706" centery="727" centerz="10" radius="1">
+		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="696" centery="728" centerz="10" radius="1">
+		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="695" centery="735" centerz="10" radius="1">
+		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="66" centery="90" centerz="11" radius="5">
 		<monster name="Poison Spider" x="-1" y="0" z="11" spawntime="60" />

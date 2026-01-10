@@ -7,7 +7,6 @@
 	<house name="Saund Top 1" houseid="5" entryx="229" entryy="560" entryz="5" rent="0" townid="5" size="13" />
 	<house name="Kazgal Close 1" houseid="6" entryx="233" entryy="481" entryz="12" rent="0" townid="3" size="32" />
 	<house name="Tower Flat" houseid="7" entryx="131" entryy="352" entryz="4" rent="0" townid="2" size="10" />
-	<house name="Castle Street 1" houseid="8" entryx="117" entryy="349" entryz="7" rent="0" townid="2" size="26" />
 	<house name="Seaview 2" houseid="9" entryx="114" entryy="356" entryz="6" rent="0" townid="2" size="36" />
 	<house name="Seaview 1" houseid="10" entryx="117" entryy="353" entryz="5" rent="0" townid="2" size="26" />
 	<house name="Hill Hut 1" houseid="11" entryx="129" entryy="363" entryz="6" rent="0" townid="2" size="23" />
@@ -108,6 +107,4 @@
 	<house name="Church Avenue 6" houseid="108" entryx="158" entryy="403" entryz="7" rent="0" townid="2" size="20" />
 	<house name="Castle Street 2" houseid="109" entryx="112" entryy="345" entryz="7" rent="0" townid="2" size="23" />
 	<house name="Castle Street 3" houseid="110" entryx="116" entryy="341" entryz="7" rent="0" townid="2" size="24" />
-	<house name="Armory Flat 1" houseid="111" entryx="186" entryy="377" entryz="6" rent="0" townid="2" size="20" />
-	<house name="Armory Flat 2" houseid="112" entryx="185" entryy="376" entryz="6" rent="0" townid="2" size="20" />
 </houses>
