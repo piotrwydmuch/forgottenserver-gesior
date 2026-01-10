@@ -352,6 +352,10 @@
 	<spawn centerx="659" centery="717" centerz="6" radius="1">
 		<npc name="Deruno" x="0" y="0" z="6" spawntime="60" direction="3" />
 	</spawn>
+	<spawn centerx="730" centery="737" centerz="6" radius="1">
+		<monster name="Troll Champion" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Troll" x="1" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="103" centery="68" centerz="7" radius="5">
 		<monster name="Wasp" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
@@ -917,6 +921,39 @@
 	<spawn centerx="681" centery="721" centerz="7" radius="1">
 		<npc name="Tyoric" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="730" centery="728" centerz="7" radius="1">
+		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="722" centery="731" centerz="7" radius="1">
+		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="727" centery="732" centerz="7" radius="1">
+		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="716" centery="734" centerz="7" radius="1">
+		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="721" centery="737" centerz="7" radius="1">
+		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="731" centery="738" centerz="7" radius="1">
+		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="712" centery="739" centerz="7" radius="1">
+		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="725" centery="740" centerz="7" radius="1">
+		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="717" centery="744" centerz="7" radius="1">
+		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="722" centery="748" centerz="7" radius="1">
+		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="727" centery="749" centerz="7" radius="1">
+		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="76" centery="70" centerz="8" radius="5">
 		<monster name="Skeleton" x="-1" y="-1" z="8" spawntime="60" />
 	</spawn>
@@ -997,7 +1034,6 @@
 		<monster name="Spider" x="0" y="0" z="8" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="544" centery="196" centerz="8" radius="1">
-		<npc name="Metin Quest Giver" x="0" y="-1" z="8" spawntime="60" direction="2" />
 		<npc name="Metin Quest Giver" x="0" y="0" z="8" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="546" centery="199" centerz="8" radius="1">
@@ -1142,6 +1178,29 @@
 	</spawn>
 	<spawn centerx="244" centery="570" centerz="8" radius="5">
 		<monster name="Bat" x="0" y="-2" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="706" centery="743" centerz="8" radius="1">
+		<monster name="Troll" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="730" centery="752" centerz="8" radius="1">
+		<monster name="Troll" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="737" centery="752" centerz="8" radius="1">
+		<monster name="Troll" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="748" centery="752" centerz="8" radius="1">
+		<monster name="Troll Champion" x="0" y="0" z="8" spawntime="60" direction="2" />
+		<monster name="Troll" x="-1" y="1" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="739" centery="759" centerz="8" radius="1">
+		<monster name="Troll" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="743" centery="761" centerz="8" radius="1">
+		<monster name="Troll Champion" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="722" centery="762" centerz="8" radius="1">
+		<monster name="Troll" x="1" y="-1" z="8" spawntime="60" direction="2" />
+		<monster name="Troll Champion" x="0" y="0" z="8" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="76" centery="68" centerz="9" radius="5">
 		<monster name="Spider" x="-1" y="-1" z="9" spawntime="60" />
@@ -1313,11 +1372,21 @@
 	<spawn centerx="672" centery="719" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
-	<spawn centerx="687" centery="720" centerz="9" radius="1">
-		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	<spawn centerx="687" centery="719" centerz="9" radius="1">
+		<monster name="Skeleton Warrior" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="680" centery="722" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="669" centery="725" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="662" centery="727" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="732" centery="727" centerz="9" radius="1">
+		<monster name="Troll Champion" x="0" y="0" z="9" spawntime="60" direction="2" />
+		<monster name="Troll Champion" x="0" y="1" z="9" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="648" centery="728" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
@@ -1325,8 +1394,31 @@
 	<spawn centerx="655" centery="728" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="723" centery="730" centerz="9" radius="1">
+		<monster name="Troll Champion" x="-1" y="-1" z="9" spawntime="60" direction="2" />
+		<monster name="Troll" x="1" y="-1" z="9" spawntime="60" direction="2" />
+		<monster name="Troll Champion" x="-1" y="1" z="9" spawntime="60" direction="2" />
+		<monster name="Troll Champion" x="1" y="1" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="744" centery="730" centerz="9" radius="1">
+		<monster name="Troll Champion" x="0" y="0" z="9" spawntime="60" direction="2" />
+		<monster name="Troll Champion" x="1" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="668" centery="731" centerz="9" radius="1">
+		<monster name="Skeleton Warrior" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="655" centery="733" centerz="9" radius="1">
+		<monster name="Bat" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="682" centery="735" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="741" centery="735" centerz="9" radius="1">
+		<monster name="Bandit" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="718" centery="737" centerz="9" radius="1">
+		<monster name="Troll Champion" x="0" y="0" z="9" spawntime="60" direction="2" />
+		<monster name="Troll Champion" x="1" y="1" z="9" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="655" centery="738" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
@@ -1337,11 +1429,38 @@
 	<spawn centerx="672" centery="738" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
-	<spawn centerx="687" centery="739" centerz="9" radius="1">
-		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	<spawn centerx="687" centery="740" centerz="9" radius="1">
+		<monster name="Skeleton Warrior" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="729" centery="740" centerz="9" radius="1">
+		<monster name="Troll Champion" x="0" y="0" z="9" spawntime="60" direction="2" />
+		<monster name="Troll Champion" x="1" y="1" z="9" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="679" centery="741" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="721" centery="741" centerz="9" radius="1">
+		<monster name="Pig" x="0" y="0" z="9" spawntime="60" direction="2" />
+		<monster name="Pig" x="1" y="1" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="744" centery="743" centerz="9" radius="1">
+		<monster name="Troll Champion" x="1" y="-1" z="9" spawntime="60" direction="2" />
+		<monster name="Troll Champion" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="731" centery="751" centerz="9" radius="1">
+		<monster name="Troll Champion" x="1" y="-1" z="9" spawntime="60" direction="2" />
+		<monster name="Troll Champion" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="745" centery="751" centerz="9" radius="1">
+		<monster name="Troll" x="-1" y="-1" z="9" spawntime="60" direction="2" />
+		<monster name="Troll Champion" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="737" centery="753" centerz="9" radius="1">
+		<monster name="Troll" x="1" y="-1" z="9" spawntime="60" direction="2" />
+		<monster name="Troll Champion" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="745" centery="758" centerz="9" radius="1">
+		<monster name="Troll Champion" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="80" centery="81" centerz="10" radius="5">
 		<monster name="Spider" x="-3" y="-2" z="10" spawntime="60" />
@@ -1430,17 +1549,35 @@
 	<spawn centerx="699" centery="695" centerz="10" radius="1">
 		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="705" centery="695" centerz="10" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="10" spawntime="60" direction="2" />
+		<monster name="Skeleton Warrior" x="1" y="1" z="10" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="712" centery="695" centerz="10" radius="1">
 		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="698" centery="700" centerz="10" radius="1">
 		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="712" centery="704" centerz="10" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="10" spawntime="60" direction="2" />
+		<monster name="Skeleton Warrior" x="1" y="1" z="10" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="691" centery="711" centerz="10" radius="1">
 		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="698" centery="711" centerz="10" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="10" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="706" centery="711" centerz="10" radius="1">
 		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="713" centery="711" centerz="10" radius="1">
+		<monster name="Bat" x="0" y="0" z="10" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="706" centery="720" centerz="10" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="10" spawntime="60" direction="2" />
+		<monster name="Skeleton Warrior" x="1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="706" centery="727" centerz="10" radius="1">
 		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
