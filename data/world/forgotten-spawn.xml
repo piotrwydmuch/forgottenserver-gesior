@@ -909,14 +909,37 @@
 		<monster name="Tarantula" x="-3" y="-1" z="7" spawntime="60" />
 		<monster name="Tarantula" x="1" y="2" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="615" centery="688" centerz="7" radius="1">
+		<monster name="Chicken" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Chicken" x="-1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="608" centery="690" centerz="7" radius="1">
+		<monster name="Chicken" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Chicken" x="-1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="616" centery="696" centerz="7" radius="1">
+		<monster name="Chicken" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Chicken" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="665" centery="698" centerz="7" radius="1">
 		<npc name="Banker" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="655" centery="702" centerz="7" radius="1">
 		<npc name="Riona" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="625" centery="706" centerz="7" radius="1">
+		<monster name="Chicken" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Chicken" x="0" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="615" centery="709" centerz="7" radius="1">
+		<monster name="Pig" x="0" y="-1" z="7" spawntime="60" />
+	</spawn>
 	<spawn centerx="676" centery="713" centerz="7" radius="1">
 		<npc name="Eryn" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="621" centery="714" centerz="7" radius="1">
+		<monster name="Chicken" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Chicken" x="-1" y="1" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="681" centery="721" centerz="7" radius="1">
 		<npc name="Tyoric" x="0" y="0" z="7" spawntime="60" />
