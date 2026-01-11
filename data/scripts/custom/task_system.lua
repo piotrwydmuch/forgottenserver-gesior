@@ -102,7 +102,19 @@ local config = {
             },
             repeatable = true,
              desc = "The ultimate challenge."
-        }
+        },
+        [4] = {
+            name = "Trolls Hunt",
+            category = "Daily",
+            mobs = {"troll", "troll champion", "swamp troll"},
+            count = 10,
+            rewards = {
+                {type = "exp", value = 10000},
+                {type = "points", value = 100}
+            },
+            repeatable = true,
+            desc = "Hunt trolls and their champions."
+        },
     }
 }
 
@@ -296,14 +308,18 @@ function ev.onKill(player, target)
     
     return true
 end
+ev:type("kill")
 ev:register()
 
 local login = CreatureEvent("ModernTaskLogin")
 function login.onLogin(player)
     player:registerEvent("ModernTaskKill")
     player:registerEvent("ModernTaskOpcode")
+    -- Send task data on login
+    sendData(player)
     return true
 end
+login:type("login")
 login:register()
 
 local op = CreatureEvent("ModernTaskOpcode")
