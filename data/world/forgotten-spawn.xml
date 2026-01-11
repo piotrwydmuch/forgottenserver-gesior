@@ -349,12 +349,119 @@
 	<spawn centerx="267" centery="592" centerz="6" radius="5">
 		<monster name="Tarantula" x="-2" y="0" z="6" spawntime="60" />
 	</spawn>
+	<spawn centerx="658" centery="649" centerz="6" radius="1">
+		<monster name="Bonelord" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="660" centery="657" centerz="6" radius="1">
+		<monster name="Slime" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="868" centery="690" centerz="6" radius="1">
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="-1" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="833" centery="696" centerz="6" radius="1">
+		<monster name="Stone Golem" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="853" centery="697" centerz="6" radius="1">
+		<monster name="Cyclops" x="-1" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="888" centery="698" centerz="6" radius="1">
+		<monster name="Cyclops" x="-1" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="1" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="874" centery="707" centerz="6" radius="1">
+		<monster name="Cyclops" x="1" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="659" centery="717" centerz="6" radius="1">
 		<npc name="Deruno" x="0" y="0" z="6" spawntime="60" direction="3" />
+	</spawn>
+	<spawn centerx="862" centery="717" centerz="6" radius="1">
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="844" centery="720" centerz="6" radius="1">
+		<monster name="Stone Golem" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="896" centery="721" centerz="6" radius="1">
+		<monster name="Cyclops" x="-1" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="881" centery="723" centerz="6" radius="1">
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="-1" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="915" centery="726" centerz="6" radius="4">
+		<monster name="Witch" x="-1" y="-2" z="6" spawntime="60" direction="2" />
+		<monster name="Snake" x="-1" y="1" z="6" spawntime="60" direction="2" />
+		<monster name="Witch" x="3" y="2" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="854" centery="727" centerz="6" radius="1">
+		<monster name="Cyclops" x="-1" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="836" centery="730" centerz="6" radius="1">
+		<monster name="Stone Golem" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="867" centery="731" centerz="6" radius="1">
+		<monster name="Cyclops" x="1" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="1" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="897" centery="735" centerz="6" radius="1">
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="-1" y="1" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="1" y="1" z="6" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="730" centery="737" centerz="6" radius="1">
 		<monster name="Troll Champion" x="0" y="0" z="6" spawntime="60" direction="2" />
 		<monster name="Troll" x="1" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="907" centery="739" centerz="6" radius="1">
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="809" centery="741" centerz="6" radius="1">
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="839" centery="741" centerz="6" radius="1">
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="-1" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="880" centery="741" centerz="6" radius="1">
+		<monster name="Cyclops" x="-1" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="852" centery="744" centerz="6" radius="1">
+		<monster name="Cyclops" x="0" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="820" centery="746" centerz="6" radius="1">
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="865" centery="746" centerz="6" radius="1">
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="1" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="897" centery="746" centerz="6" radius="1">
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="834" centery="753" centerz="6" radius="1">
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="-1" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="872" centery="754" centerz="6" radius="1">
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="-1" y="1" z="6" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="1" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="823" centery="757" centerz="6" radius="1">
+		<monster name="Cyclops" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="667" centery="782" centerz="6" radius="1">
+		<monster name="Bandit" x="1" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Hunter" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Bandit" x="-1" y="1" z="6" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="103" centery="68" centerz="7" radius="5">
 		<monster name="Wasp" x="-1" y="0" z="7" spawntime="60" />
@@ -909,6 +1016,11 @@
 		<monster name="Tarantula" x="-3" y="-1" z="7" spawntime="60" />
 		<monster name="Tarantula" x="1" y="2" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="670" centery="649" centerz="7" radius="1">
+		<monster name="Snake" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Snake" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Snake" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="615" centery="688" centerz="7" radius="1">
 		<monster name="Chicken" x="0" y="0" z="7" spawntime="60" direction="2" />
 		<monster name="Chicken" x="-1" y="1" z="7" spawntime="60" direction="2" />
@@ -924,8 +1036,19 @@
 	<spawn centerx="665" centery="698" centerz="7" radius="1">
 		<npc name="Banker" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="859" centery="701" centerz="7" radius="1">
+		<monster name="Cyclops Smith" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops Drone" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="655" centery="702" centerz="7" radius="1">
 		<npc name="Riona" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="845" centery="704" centerz="7" radius="1">
+		<monster name="Cyclops Drone" x="1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops Smith" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="871" centery="704" centerz="7" radius="1">
+		<monster name="Cyclops Smith" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="625" centery="706" centerz="7" radius="1">
 		<monster name="Chicken" x="0" y="0" z="7" spawntime="60" direction="2" />
@@ -934,6 +1057,14 @@
 	<spawn centerx="615" centery="709" centerz="7" radius="1">
 		<monster name="Pig" x="0" y="-1" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="822" centery="710" centerz="7" radius="1">
+		<monster name="Cyclops Drone" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops Smith" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="855" centery="710" centerz="7" radius="1">
+		<monster name="Stone Golem" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Stone Golem" x="-1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="676" centery="713" centerz="7" radius="1">
 		<npc name="Eryn" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
@@ -941,11 +1072,40 @@
 		<monster name="Chicken" x="0" y="0" z="7" spawntime="60" direction="2" />
 		<monster name="Chicken" x="-1" y="1" z="7" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="842" centery="715" centerz="7" radius="1">
+		<monster name="Cyclops Smith" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops Drone" x="1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops Smith" x="-1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="866" centery="716" centerz="7" radius="1">
+		<monster name="Cyclops Smith" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="811" centery="719" centerz="7" radius="1">
+		<monster name="Cyclops Smith" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops Drone" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="882" centery="720" centerz="7" radius="1">
+		<monster name="Cyclops Smith" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="681" centery="721" centerz="7" radius="1">
 		<npc name="Tyoric" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="841" centery="724" centerz="7" radius="6">
+		<monster name="Cyclops Smith" x="3" y="-3" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops Drone" x="0" y="-2" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops Smith" x="-4" y="2" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops Smith" x="0" y="3" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops" x="3" y="3" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="860" centery="727" centerz="7" radius="1">
+		<monster name="Cyclops Drone" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="730" centery="728" centerz="7" radius="1">
 		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="819" centery="729" centerz="7" radius="1">
+		<monster name="Cyclops Smith" x="1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops Drone" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="722" centery="731" centerz="7" radius="1">
 		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
@@ -953,8 +1113,20 @@
 	<spawn centerx="727" centery="732" centerz="7" radius="1">
 		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="849" centery="732" centerz="7" radius="1">
+		<monster name="Stone Golem" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Stone Golem" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="716" centery="734" centerz="7" radius="1">
 		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="835" centery="734" centerz="7" radius="1">
+		<monster name="Stone Golem" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Stone Golem" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="871" centery="734" centerz="7" radius="1">
+		<monster name="Cyclops" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops Drone" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="721" centery="737" centerz="7" radius="1">
 		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
@@ -968,14 +1140,58 @@
 	<spawn centerx="725" centery="740" centerz="7" radius="1">
 		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="826" centery="740" centerz="7" radius="1">
+		<monster name="Cyclops Smith" x="1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops Drone" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="850" centery="741" centerz="7" radius="1">
+		<monster name="Cyclops" x="1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops Drone" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="717" centery="744" centerz="7" radius="1">
 		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="870" centery="745" centerz="7" radius="1">
+		<monster name="Cyclops" x="1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops Drone" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="840" centery="746" centerz="7" radius="1">
+		<monster name="Cyclops Drone" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="722" centery="748" centerz="7" radius="1">
 		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="727" centery="749" centerz="7" radius="1">
 		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="663" centery="765" centerz="7" radius="1">
+		<monster name="Bandit" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="653" centery="768" centerz="7" radius="1">
+		<monster name="Bandit" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="666" centery="770" centerz="7" radius="1">
+		<monster name="Bandit" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Bandit" x="-1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="654" centery="774" centerz="7" radius="1">
+		<monster name="Bandit" x="-1" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Bandit" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="661" centery="781" centerz="7" radius="1">
+		<monster name="Bandit" x="1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Bandit" x="-1" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Bandit" x="0" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="667" centery="781" centerz="7" radius="1">
+		<monster name="Bandit" x="-1" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Wild Warrior" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="671" centery="787" centerz="7" radius="1">
+		<monster name="Wild Warrior" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="665" centery="788" centerz="7" radius="1">
+		<monster name="Wild Warrior" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="76" centery="70" centerz="8" radius="5">
 		<monster name="Skeleton" x="-1" y="-1" z="8" spawntime="60" />
@@ -1202,6 +1418,13 @@
 	<spawn centerx="244" centery="570" centerz="8" radius="5">
 		<monster name="Bat" x="0" y="-2" z="8" spawntime="60" />
 	</spawn>
+	<spawn centerx="677" centery="645" centerz="8" radius="1">
+		<monster name="Slime" x="0" y="0" z="8" spawntime="60" direction="2" />
+		<monster name="Slime" x="-1" y="1" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="666" centery="647" centerz="8" radius="1">
+		<monster name="Slime" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="618" centery="704" centerz="8" radius="1">
 		<monster name="Cave Rat" x="0" y="0" z="8" spawntime="60" direction="2" />
 	</spawn>
@@ -1419,8 +1642,17 @@
 	<spawn centerx="639" centery="707" centerz="9" radius="1">
 		<monster name="Rotworm" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="837" centery="709" centerz="9" radius="1">
+		<monster name="Behemoth" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="682" centery="715" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="846" centery="715" centerz="9" radius="1">
+		<monster name="Behemoth" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="827" centery="716" centerz="9" radius="1">
+		<monster name="Behemoth" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="641" centery="717" centerz="9" radius="1">
 		<monster name="Rotworm" x="0" y="0" z="9" spawntime="60" direction="2" />
@@ -1444,12 +1676,18 @@
 	<spawn centerx="669" centery="725" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="848" centery="726" centerz="9" radius="1">
+		<monster name="Behemoth" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="662" centery="727" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="732" centery="727" centerz="9" radius="1">
 		<monster name="Troll Champion" x="0" y="0" z="9" spawntime="60" direction="2" />
 		<monster name="Troll Champion" x="0" y="1" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="825" centery="727" centerz="9" radius="1">
+		<monster name="Behemoth" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="648" centery="728" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
@@ -1505,6 +1743,12 @@
 	<spawn centerx="721" centery="741" centerz="9" radius="1">
 		<monster name="Pig" x="0" y="0" z="9" spawntime="60" direction="2" />
 		<monster name="Pig" x="1" y="1" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="829" centery="741" centerz="9" radius="1">
+		<monster name="Behemoth" x="0" y="0" z="9" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="847" centery="742" centerz="9" radius="1">
+		<monster name="Behemoth" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="744" centery="743" centerz="9" radius="1">
 		<monster name="Troll Champion" x="1" y="-1" z="9" spawntime="60" direction="2" />
@@ -1795,6 +2039,40 @@
 	<spawn centerx="204" centery="619" centerz="12" radius="5">
 		<monster name="Slime" x="2" y="0" z="12" spawntime="60" />
 		<monster name="Slime" x="-1" y="3" z="12" spawntime="60" />
+	</spawn>
+	<spawn centerx="719" centery="726" centerz="12" radius="1">
+		<monster name="Mummy" x="0" y="0" z="12" spawntime="60" direction="2" />
+		<monster name="Crypt Shambler" x="1" y="1" z="12" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="719" centery="737" centerz="12" radius="1">
+		<monster name="Necromancer" x="-1" y="0" z="12" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="712" centery="742" centerz="12" radius="1">
+		<monster name="Mummy" x="0" y="0" z="12" spawntime="60" direction="2" />
+		<monster name="Crypt Shambler" x="-1" y="1" z="12" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="704" centery="743" centerz="12" radius="1">
+		<monster name="Necromancer" x="0" y="0" z="12" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="735" centery="743" centerz="12" radius="1">
+		<monster name="Crypt Shambler" x="1" y="-1" z="12" spawntime="60" direction="2" />
+		<monster name="Necromancer" x="0" y="0" z="12" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="728" centery="752" centerz="12" radius="1">
+		<monster name="Mummy" x="0" y="0" z="12" spawntime="60" direction="2" />
+		<monster name="Crypt Shambler" x="-1" y="1" z="12" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="738" centery="752" centerz="12" radius="1">
+		<monster name="Necromancer" x="0" y="0" z="12" spawntime="60" direction="2" />
+		<monster name="Necromancer" x="-1" y="1" z="12" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="703" centery="753" centerz="12" radius="1">
+		<monster name="Necromancer" x="1" y="-1" z="12" spawntime="60" direction="2" />
+		<monster name="Necromancer" x="0" y="0" z="12" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="718" centery="753" centerz="12" radius="1">
+		<monster name="Mummy" x="-1" y="-1" z="12" spawntime="60" direction="2" />
+		<monster name="Necromancer" x="0" y="0" z="12" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="222" centery="307" centerz="13" radius="5">
 		<monster name="Dragon Lord" x="-1" y="-2" z="13" spawntime="60" />
