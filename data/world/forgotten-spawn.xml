@@ -2136,19 +2136,23 @@
 		<monster name="Rotworm" x="1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="677" centery="681" centerz="10" radius="1">
+		<monster name="Cockroach" x="1" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="-1" y="1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="662" centery="688" centerz="10" radius="1">
+		<monster name="Cockroach" x="-1" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="-1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="668" centery="693" centerz="10" radius="1">
+		<monster name="Cockroach" x="0" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="684" centery="693" centerz="10" radius="1">
+		<monster name="Cockroach" x="-1" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="-1" y="1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="1" y="1" z="10" spawntime="60" direction="2" />
@@ -2165,6 +2169,7 @@
 	</spawn>
 	<spawn centerx="660" centery="699" centerz="10" radius="1">
 		<monster name="Rotworm" x="-1" y="-1" z="10" spawntime="60" direction="2" />
+		<monster name="Cockroach" x="1" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="-1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
@@ -2172,26 +2177,31 @@
 		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="647" centery="702" centerz="10" radius="1">
+		<monster name="Cockroach" x="1" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="673" centery="702" centerz="10" radius="1">
 		<monster name="Rotworm" x="0" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="-1" y="0" z="10" spawntime="60" direction="2" />
-		<monster name="Rotworm" x="1" y="1" z="10" spawntime="60" direction="2" />
+		<monster name="Cockroach" x="1" y="0" z="10" spawntime="60" direction="2" />
+		<monster name="Rotworm" x="0" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="712" centery="704" centerz="10" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Skeleton Warrior" x="1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="652" centery="708" centerz="10" radius="1">
+		<monster name="Cockroach" x="1" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="644" centery="711" centerz="10" radius="1">
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
+		<monster name="Cockroach" x="1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="663" centery="711" centerz="10" radius="1">
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
+		<monster name="Cockroach" x="1" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="691" centery="711" centerz="10" radius="1">
@@ -2207,6 +2217,7 @@
 		<monster name="Bat" x="0" y="0" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="675" centery="718" centerz="10" radius="1">
+		<monster name="Cockroach" x="-1" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="-1" y="1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="1" y="1" z="10" spawntime="60" direction="2" />
@@ -2214,22 +2225,26 @@
 	<spawn centerx="635" centery="720" centerz="10" radius="1">
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="-1" y="1" z="10" spawntime="60" direction="2" />
+		<monster name="Cockroach" x="1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="706" centery="720" centerz="10" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Skeleton Warrior" x="1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="661" centery="721" centerz="10" radius="1">
+		<monster name="Cockroach" x="-1" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="-1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="648" centery="723" centerz="10" radius="1">
 		<monster name="Rotworm" x="1" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
+		<monster name="Cockroach" x="1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="673" centery="726" centerz="10" radius="1">
 		<monster name="Rotworm" x="1" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
+		<monster name="Cockroach" x="-1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="706" centery="727" centerz="10" radius="1">
 		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
@@ -2241,13 +2256,16 @@
 		<monster name="Rotworm" x="-1" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="-1" y="1" z="10" spawntime="60" direction="2" />
+		<monster name="Cockroach" x="1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="664" centery="730" centerz="10" radius="1">
+		<monster name="Cockroach" x="-1" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="-1" y="1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="1" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="648" centery="732" centerz="10" radius="1">
+		<monster name="Cockroach" x="-1" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="1" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
 	</spawn>
@@ -2255,6 +2273,7 @@
 		<monster name="Ghoul" x="0" y="0" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="644" centery="740" centerz="10" radius="1">
+		<monster name="Cockroach" x="0" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="1" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="-1" y="1" z="10" spawntime="60" direction="2" />
@@ -2263,6 +2282,7 @@
 		<monster name="Rotworm" x="-1" y="-1" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="0" y="0" z="10" spawntime="60" direction="2" />
 		<monster name="Rotworm" x="-1" y="1" z="10" spawntime="60" direction="2" />
+		<monster name="Cockroach" x="0" y="1" z="10" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="66" centery="90" centerz="11" radius="5">
 		<monster name="Poison Spider" x="-1" y="0" z="11" spawntime="60" />
