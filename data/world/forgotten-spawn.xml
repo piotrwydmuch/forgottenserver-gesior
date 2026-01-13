@@ -36,12 +36,12 @@
 		<monster name="Minotaur Archer" x="1" y="-1" z="3" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="0" y="0" z="3" spawntime="60" direction="2" />
 	</spawn>
-	<spawn centerx="817" centery="713" centerz="3" radius="3">
-		<monster name="Minotaur Mage" x="-3" y="-2" z="3" spawntime="60" direction="2" />
-		<monster name="Minotaur Mage" x="2" y="-1" z="3" spawntime="60" direction="2" />
-		<monster name="Minotaur Mage" x="-1" y="0" z="3" spawntime="60" direction="2" />
-		<monster name="Minotaur Guard" x="-3" y="1" z="3" spawntime="60" direction="2" />
-		<monster name="Minotaur Guard" x="1" y="1" z="3" spawntime="60" direction="2" />
+	<spawn centerx="817" centery="712" centerz="3" radius="3">
+		<monster name="Minotaur Mage" x="-2" y="-2" z="3" spawntime="60" direction="2" />
+		<monster name="Minotaur Mage" x="0" y="-2" z="3" spawntime="60" direction="2" />
+		<monster name="Minotaur Mage" x="2" y="-2" z="3" spawntime="60" direction="2" />
+		<monster name="Minotaur Guard" x="-2" y="2" z="3" spawntime="60" direction="2" />
+		<monster name="Minotaur Guard" x="1" y="2" z="3" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="824" centery="715" centerz="3" radius="1">
 		<monster name="Minotaur Archer" x="0" y="-1" z="3" spawntime="60" direction="2" />
@@ -102,18 +102,22 @@
 		<monster name="Dragon" x="1" y="1" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="804" centery="695" centerz="4" radius="1">
+		<monster name="Minotaur" x="-1" y="0" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="1" y="0" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="0" y="1" z="4" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="816" centery="695" centerz="4" radius="1">
 		<monster name="Minotaur Archer" x="-1" y="0" z="4" spawntime="60" direction="2" />
+		<monster name="Minotaur" x="1" y="0" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="0" y="1" z="4" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="794" centery="700" centerz="4" radius="1">
+		<monster name="Minotaur" x="1" y="-1" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="0" y="0" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="1" y="1" z="4" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="825" centery="703" centerz="4" radius="1">
+		<monster name="Minotaur" x="-1" y="-1" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="0" y="0" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="-1" y="1" z="4" spawntime="60" direction="2" />
 	</spawn>
@@ -122,26 +126,30 @@
 		<monster name="Minotaur Guard" x="0" y="0" z="4" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="817" centery="712" centerz="4" radius="3">
-		<monster name="Minotaur Mage" x="0" y="-2" z="4" spawntime="60" direction="2" />
-		<monster name="Minotaur Archer" x="-2" y="-1" z="4" spawntime="60" direction="2" />
+		<monster name="Minotaur Mage" x="0" y="-3" z="4" spawntime="60" direction="2" />
+		<monster name="Minotaur Archer" x="-3" y="-1" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="2" y="-1" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Guard" x="-1" y="1" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Guard" x="1" y="1" z="4" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="794" centery="714" centerz="4" radius="1">
+		<monster name="Minotaur" x="0" y="-1" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="1" y="0" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="0" y="1" z="4" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="825" centery="714" centerz="4" radius="1">
+		<monster name="Minotaur" x="0" y="-1" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="-1" y="0" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="-1" y="1" z="4" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="802" centery="723" centerz="4" radius="1">
 		<monster name="Minotaur Archer" x="0" y="0" z="4" spawntime="60" direction="2" />
+		<monster name="Minotaur" x="1" y="0" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="-1" y="1" z="4" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="817" centery="723" centerz="4" radius="1">
 		<monster name="Minotaur Archer" x="0" y="0" z="4" spawntime="60" direction="2" />
+		<monster name="Minotaur" x="1" y="0" z="4" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="-1" y="1" z="4" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="102" centery="67" centerz="5" radius="5">
@@ -270,6 +278,7 @@
 	<spawn centerx="811" centery="699" centerz="5" radius="1">
 		<monster name="Minotaur Guard" x="-1" y="-1" z="5" spawntime="60" direction="2" />
 		<monster name="Minotaur Guard" x="1" y="-1" z="5" spawntime="60" direction="2" />
+		<monster name="Minotaur" x="0" y="1" z="5" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="794" centery="701" centerz="5" radius="1">
 		<monster name="Minotaur Archer" x="1" y="-1" z="5" spawntime="60" direction="2" />
@@ -277,6 +286,7 @@
 	</spawn>
 	<spawn centerx="804" centery="702" centerz="5" radius="1">
 		<monster name="Minotaur Guard" x="-1" y="-1" z="5" spawntime="60" direction="2" />
+		<monster name="Minotaur" x="1" y="-1" z="5" spawntime="60" direction="2" />
 		<monster name="Minotaur Guard" x="1" y="0" z="5" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="824" centery="702" centerz="5" radius="1">
@@ -285,6 +295,7 @@
 	</spawn>
 	<spawn centerx="817" centery="705" centerz="5" radius="1">
 		<monster name="Minotaur Guard" x="-1" y="-1" z="5" spawntime="60" direction="2" />
+		<monster name="Minotaur" x="1" y="0" z="5" spawntime="60" direction="2" />
 		<monster name="Minotaur Guard" x="-1" y="1" z="5" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="830" centery="706" centerz="5" radius="1">
@@ -298,8 +309,8 @@
 		<monster name="Minotaur" x="0" y="0" z="5" spawntime="60" direction="2" />
 		<monster name="Minotaur" x="-1" y="1" z="5" spawntime="60" direction="2" />
 	</spawn>
-	<spawn centerx="803" centery="710" centerz="5" radius="1">
-		<monster name="Dark Torturer" x="0" y="0" z="5" spawntime="60" direction="2" />
+	<spawn centerx="804" centery="710" centerz="5" radius="1">
+		<monster name="Dark Torturer" x="-1" y="0" z="5" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="848" centery="712" centerz="5" radius="1">
 		<monster name="Minotaur" x="-1" y="0" z="5" spawntime="60" direction="2" />
@@ -307,8 +318,10 @@
 		<monster name="Minotaur" x="0" y="1" z="5" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="817" centery="713" centerz="5" radius="3">
+		<monster name="Minotaur" x="-2" y="-3" z="5" spawntime="60" direction="2" />
 		<monster name="Minotaur Guard" x="0" y="-2" z="5" spawntime="60" direction="2" />
-		<monster name="Minotaur Archer" x="-1" y="0" z="5" spawntime="60" direction="2" />
+		<monster name="Minotaur" x="-3" y="-1" z="5" spawntime="60" direction="2" />
+		<monster name="Minotaur Archer" x="-2" y="0" z="5" spawntime="60" direction="2" />
 		<monster name="Minotaur Guard" x="-3" y="1" z="5" spawntime="60" direction="2" />
 		<monster name="Minotaur Mage" x="1" y="1" z="5" spawntime="60" direction="2" />
 	</spawn>
@@ -330,6 +343,7 @@
 		<monster name="Minotaur Guard" x="-1" y="-1" z="5" spawntime="60" direction="2" />
 		<monster name="Minotaur Guard" x="1" y="-1" z="5" spawntime="60" direction="2" />
 		<monster name="Minotaur Archer" x="-1" y="0" z="5" spawntime="60" direction="2" />
+		<monster name="Minotaur" x="1" y="0" z="5" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="803" centery="723" centerz="5" radius="1">
 		<monster name="Minotaur Guard" x="0" y="0" z="5" spawntime="60" direction="2" />
@@ -1355,7 +1369,7 @@
 	<spawn centerx="841" centery="724" centerz="7" radius="6">
 		<monster name="Cyclops Smith" x="3" y="-3" z="7" spawntime="60" direction="2" />
 		<monster name="Cyclops Drone" x="0" y="-2" z="7" spawntime="60" direction="2" />
-		<monster name="Cyclops Smith" x="-4" y="2" z="7" spawntime="60" direction="2" />
+		<monster name="Cyclops Smith" x="-5" y="3" z="7" spawntime="60" direction="2" />
 		<monster name="Cyclops Smith" x="0" y="3" z="7" spawntime="60" direction="2" />
 		<monster name="Cyclops" x="3" y="3" z="7" spawntime="60" direction="2" />
 	</spawn>
@@ -1936,10 +1950,13 @@
 	<spawn centerx="680" centery="722" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="844" centery="724" centerz="9" radius="1">
+		<monster name="Behemoth" x="0" y="-1" z="9" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="669" centery="725" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
-	<spawn centerx="848" centery="726" centerz="9" radius="1">
+	<spawn centerx="824" centery="726" centerz="9" radius="1">
 		<monster name="Behemoth" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="662" centery="727" centerz="9" radius="1">
@@ -1948,9 +1965,6 @@
 	<spawn centerx="732" centery="727" centerz="9" radius="1">
 		<monster name="Troll Champion" x="0" y="0" z="9" spawntime="60" direction="2" />
 		<monster name="Troll Champion" x="0" y="1" z="9" spawntime="60" direction="2" />
-	</spawn>
-	<spawn centerx="825" centery="727" centerz="9" radius="1">
-		<monster name="Behemoth" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="648" centery="728" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" direction="2" />
