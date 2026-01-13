@@ -205,10 +205,57 @@ void ProtocolGame::login(const std::string& name, uint32_t accountId, OperatingS
 
 		player->setOperatingSystem(operatingSystem);
 
-		if (!g_game.placeCreature(player, player->getLoginPosition())) {
-			if (!g_game.placeCreature(player, player->getTemplePosition(), false, true)) {
-				disconnectClient("Temple position is wrong. Contact the administrator.");
-				return;
+		const Position& loginPos = player->getLoginPosition();
+		const Position& templePos = player->getTemplePosition();
+
+		// Walidacja pozycji logowania
+		if (loginPos.x == 0 && loginPos.y == 0 && loginPos.z == 0) {
+			std::cout << "[Warning - ProtocolGame::login] Player " << player->getName() 
+			          << " has invalid login position (0,0,0). Using temple position." << std::endl;
+		}
+
+		// Próba umieszczenia gracza na pozycji logowania
+		if (!g_game.placeCreature(player, loginPos)) {
+			std::cout << "[Warning - ProtocolGame::login] Failed to place player " << player->getName() 
+			          << " at login position (" << loginPos.x << ", " << loginPos.y << ", " << static_cast<int>(loginPos.z) << ")" << std::endl;
+
+			// Walidacja pozycji świątyni
+			if (templePos.x == 0 && templePos.y == 0 && templePos.z == 0) {
+				std::cout << "[Error - ProtocolGame::login] Player " << player->getName() 
+				          << " has invalid temple position (0,0,0). Trying to find alternative town." << std::endl;
+
+				// Próba znalezienia alternatywnej pozycji świątyni z innych miast
+				bool placed = false;
+				const auto& towns = g_game.map.towns.getTowns();
+				for (const auto& it : towns) {
+					const Position& altTemplePos = it.second->getTemplePosition();
+					if (altTemplePos.x != 0 || altTemplePos.y != 0 || altTemplePos.z != 0) {
+						if (g_game.placeCreature(player, altTemplePos, false, true)) {
+							std::cout << "[Info - ProtocolGame::login] Player " << player->getName() 
+							          << " placed at alternative temple position (" << altTemplePos.x << ", " << altTemplePos.y << ", " << static_cast<int>(altTemplePos.z) 
+							          << ") from town: " << it.second->getName() << std::endl;
+							placed = true;
+							break;
+						}
+					}
+				}
+
+				if (!placed) {
+					std::cout << "[Error - ProtocolGame::login] Failed to place player " << player->getName() 
+					          << " at any temple position. Login position: (" << loginPos.x << ", " << loginPos.y << ", " << static_cast<int>(loginPos.z) 
+					          << "), Temple position: (" << templePos.x << ", " << templePos.y << ", " << static_cast<int>(templePos.z) << ")" << std::endl;
+					disconnectClient("Temple position is wrong. Contact the administrator.");
+					return;
+				}
+			} else {
+				// Próba umieszczenia na pozycji świątyni z forceLogin
+				if (!g_game.placeCreature(player, templePos, false, true)) {
+					std::cout << "[Error - ProtocolGame::login] Failed to place player " << player->getName() 
+					          << " at temple position (" << templePos.x << ", " << templePos.y << ", " << static_cast<int>(templePos.z) 
+					          << "). Login position: (" << loginPos.x << ", " << loginPos.y << ", " << static_cast<int>(loginPos.z) << ")" << std::endl;
+					disconnectClient("Temple position is wrong. Contact the administrator.");
+					return;
+				}
 			}
 		}
 
