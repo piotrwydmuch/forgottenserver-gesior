@@ -1286,6 +1286,51 @@
 		<monster name="Tarantula" x="-3" y="-1" z="7" spawntime="60" />
 		<monster name="Tarantula" x="1" y="2" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="681" centery="608" centerz="7" radius="1">
+		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Mutated Human" x="-1" y="1" z="7" spawntime="60" direction="2" />
+		<monster name="Mutated Human" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="710" centery="615" centerz="7" radius="1">
+		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="703" centery="616" centerz="7" radius="1">
+		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="693" centery="617" centerz="7" radius="1">
+		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Mutated Human" x="-1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="673" centery="618" centerz="7" radius="1">
+		<monster name="Mutated Human" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Mutated Human" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="713" centery="623" centerz="7" radius="1">
+		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="699" centery="624" centerz="7" radius="1">
+		<monster name="Mutated Human" x="-1" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="707" centery="627" centerz="7" radius="1">
+		<monster name="Mutated Human" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="712" centery="633" centerz="7" radius="1">
+		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="691" centery="635" centerz="7" radius="1">
+		<monster name="Mutated Human" x="0" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Mutated Human" x="-1" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="707" centery="642" centerz="7" radius="1">
+		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="694" centery="646" centerz="7" radius="1">
+		<monster name="Mutated Human" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="670" centery="649" centerz="7" radius="1">
 		<monster name="Snake" x="-1" y="-1" z="7" spawntime="60" direction="2" />
 		<monster name="Snake" x="0" y="0" z="7" spawntime="60" direction="2" />
@@ -1727,6 +1772,42 @@
 	<spawn centerx="244" centery="570" centerz="8" radius="5">
 		<monster name="Bat" x="0" y="-2" z="8" spawntime="60" />
 	</spawn>
+	<spawn centerx="717" centery="619" centerz="8" radius="1">
+		<monster name="Mutated Rat" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="724" centery="619" centerz="8" radius="1">
+		<monster name="Mutated Rat" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="701" centery="620" centerz="8" radius="1">
+		<monster name="Mutated Rat" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="709" centery="624" centerz="8" radius="1">
+		<monster name="Mutated Rat" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="720" centery="625" centerz="8" radius="1">
+		<monster name="Mutated Rat" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="725" centery="625" centerz="8" radius="1">
+		<monster name="Mutated Rat" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="725" centery="629" centerz="8" radius="1">
+		<monster name="Mutated Rat" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="715" centery="632" centerz="8" radius="1">
+		<monster name="Mutated Rat" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="724" centery="633" centerz="8" radius="1">
+		<monster name="Mutated Rat" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="708" centery="638" centerz="8" radius="1">
+		<monster name="Mutated Rat" x="-1" y="-1" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="724" centery="638" centerz="8" radius="1">
+		<monster name="Mutated Rat" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="718" centery="639" centerz="8" radius="1">
+		<monster name="Mutated Rat" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="677" centery="645" centerz="8" radius="1">
 		<monster name="Slime" x="0" y="0" z="8" spawntime="60" direction="2" />
 		<monster name="Slime" x="-1" y="1" z="8" spawntime="60" direction="2" />
@@ -1754,12 +1835,12 @@
 		<monster name="Bear" x="-1" y="1" z="8" spawntime="60" direction="2" />
 		<monster name="Bear" x="1" y="1" z="8" spawntime="60" direction="2" />
 	</spawn>
-	<spawn centerx="634" centery="728" centerz="8" radius="1">
-		<monster name="Bear" x="0" y="0" z="8" spawntime="60" direction="2" />
+	<spawn centerx="621" centery="728" centerz="8" radius="1">
+		<monster name="Bear" x="0" y="-1" z="8" spawntime="60" direction="2" />
+		<monster name="Bear" x="1" y="0" z="8" spawntime="60" direction="2" />
 		<monster name="Bear" x="-1" y="1" z="8" spawntime="60" direction="2" />
-		<monster name="Bear" x="1" y="1" z="8" spawntime="60" direction="2" />
 	</spawn>
-	<spawn centerx="623" centery="730" centerz="8" radius="1">
+	<spawn centerx="634" centery="728" centerz="8" radius="1">
 		<monster name="Bear" x="0" y="0" z="8" spawntime="60" direction="2" />
 		<monster name="Bear" x="-1" y="1" z="8" spawntime="60" direction="2" />
 		<monster name="Bear" x="1" y="1" z="8" spawntime="60" direction="2" />
