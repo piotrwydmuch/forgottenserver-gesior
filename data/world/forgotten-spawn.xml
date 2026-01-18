@@ -1459,7 +1459,7 @@
 		<monster name="Cyclops Drone" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="675" centery="736" centerz="7" radius="1">
-		<npc name="Addoner" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<npc name="Addoner" x="-1" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="721" centery="737" centerz="7" radius="1">
 		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
