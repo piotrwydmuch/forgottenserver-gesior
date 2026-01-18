@@ -19,7 +19,7 @@ keywordHandler:addAliasKeyword({'offer'})
 
 shopModule:addSellableItem({'axe'}, 3274, 7, 'axe')
 
-/* helmets */
+-- helmets
 shopModule:addBuyableItem({'brass helmet'}, 2460, 120, 1, 'brass helmet')
 shopModule:addBuyableItem({'chain helmet'}, 2458, 52, 1, 'chain helmet')
 shopModule:addBuyableItem({'dark helmet'}, 2490, 1000, 1, 'dark helmet')
@@ -69,7 +69,7 @@ shopModule:addSellableItem({'viking helmet'}, 2473, 66, 1.'viking helmet')
 shopModule:addSellableItem({'warrior helmet'}, 2475, 5000, 1,'warrior helmet')	
 shopModule:addSellableItem({'zaoan helmet'}, 11302, 45000, 1,'zaoan helmet')
 
-/* armors */
+-- armors
 shopModule:addBuyableItem({'belted cape'}, 8872, 1300, 1, 'belted cape')
 shopModule:addBuyableItem({'brass armor'}, 2465, 450, 1, 'brass armor')
 shopModule:addBuyableItem({'cape'}, 2654, 9, 1, 'cape')
@@ -129,7 +129,7 @@ shopModule:addSellableItem({'zaoan armor'}, 11301, 14000, 1,'zaoan armor')
 shopModule:addSellableItem({'zaoan robe'}, 11356, 12000, 1,'zaoan robe')
 shopModule:addSellableItem({'elite draken mail'}, 12607, 50000, 1,'elite draken mail')
 
-/* legs  */
+-- legs
 shopModule:addBuyableItem({'brass legs'}, 2478, 195, 1, 'brass legs')
 shopModule:addBuyableItem({'chain legs'}, 2648, 80, 1, 'chain legs')
 shopModule:addBuyableItem({'leather legs'}, 2649, 10, 1, 'leather legs')
@@ -153,7 +153,7 @@ shopModule:addSellableItem({'studded legs'}, 2468, 15, 1,'studded legs')
 shopModule:addSellableItem({'terra legs'}, 7885, 11000, 1,'terra legs')
 shopModule:addSellableItem({'zaoan legs'}, 11304, 14000, 1,'zaoan legs')
 
-/* boots */
+-- boots
 shopModule:addBuyableItem({'leather boots'}, 2643, 2, 1,'leather boots')
  
 shopModule:addSellableItem({'boots of haste'}, 2195, 30000, 1,'boots of haste')
@@ -170,7 +170,7 @@ shopModule:addSellableItem({'steel boots'}, 2645, 30000, 1,'steel boots')
 shopModule:addSellableItem({'terra boots'}, 7886, 2500, 1,'terra boots')
 shopModule:addSellableItem({'zaoan shoes'}, 11303, 5000, 1,'zaoan shoes')
 
-/* shield */
+-- shield
 shopModule:addBuyableItem({'ancient shield'}, 2532, 5000, 1, 'ancient shield')
 shopModule:addBuyableItem({'bonelord shield'}, 2518, 7000, 1, 'beholder shield')
 shopModule:addBuyableItem({'brass shield'}, 2511, 65, 1, 'brass shield')
@@ -213,7 +213,7 @@ shopModule:addSellableItem({'vampire shield'}, 2534, 15000, 1,'vampire shield')
 shopModule:addSellableItem({'viking shield'}, 2531, 85, 1,'viking shield')
 shopModule:addSellableItem({'wooden shield'}, 2512, 5, 1,'wooden shield')
 
-/* spellbooks */
+-- spellbooks
 shopModule:addBuyableItem({'spellbook'}, 2175, 150, 1,'spellbook')
  
 shopModule:addSellableItem({'spellbook of enlightenment'}, 8900, 4000, 1,'spellbook of enlightenment')
@@ -221,7 +221,7 @@ shopModule:addSellableItem({'spellbook of lost souls'}, 8903, 19000, 1,'spellboo
 shopModule:addSellableItem({'spellbook of mind control'}, 8902, 13000, 1,'spellbook of mind control')
 shopModule:addSellableItem({'spellbook of warding'}, 8901, 8000, 1,'spellbook of warding')
 
-/* weapons  */
+-- weapons
 shopModule:addBuyableItem({'axe'}, 2386, 20, 1,'axe')
 shopModule:addBuyableItem({'barbarian axe'}, 2429, 590, 1,'barbarian axe')
 shopModule:addBuyableItem({'battle axe'}, 2378, 235, 1,'battle axe')
@@ -403,7 +403,7 @@ shopModule:addSellableItem({'lizard trophy'}, 11336, 8000, 1,'lizard trophy')
 shopModule:addSellableItem({'minotaur trophy'}, 7401, 500, 1,'minotaur trophy')
 shopModule:addSellableItem({'wolf trophy'}, 7394, 3000, 1,'wolf trophy')
 
-/* creature products */
+-- creature products
 shopModule:addSellableItem({'Acorn'}, 11213, 10, 1)
 shopModule:addSellableItem({'Ancient Stone'}, 10549, 200, 1) 
 shopModule:addSellableItem({'Antlers'}, 11214, 50, 1) 
@@ -617,7 +617,7 @@ shopModule:addSellableItem({'Wyvern Talisman'}, 10561, 265, 1)
 shopModule:addSellableItem({'Zaogun Flag'}, 11330, 600, 1) 
 shopModule:addSellableItem({'Zaogun\'s Shoulderplates'}, 11331, 150, 1)
 
-/* amulets */
+-- amulets
 shopModule:addSellableItem({'Crystal Necklace'}, 2125, 400, 1'Crystal Necklace')
 shopModule:addSellableItem({'Ruby Necklace'}, 2133, 2000, 1'Ruby Necklace')
 shopModule:addSellableItem({'Wolf Tooth Chain'}, 2129, 100, 1'Wolf Tooth Chain')
