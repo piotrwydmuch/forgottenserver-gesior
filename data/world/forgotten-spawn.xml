@@ -1398,6 +1398,9 @@
 		<monster name="Chicken" x="0" y="0" z="7" spawntime="60" direction="2" />
 		<monster name="Chicken" x="-1" y="1" z="7" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="681" centery="714" centerz="7" radius="1">
+		<npc name="Loot Buyer" x="-1" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="842" centery="715" centerz="7" radius="1">
 		<monster name="Cyclops Smith" x="-1" y="-1" z="7" spawntime="60" direction="2" />
 		<monster name="Cyclops Drone" x="1" y="-1" z="7" spawntime="60" direction="2" />
@@ -1455,8 +1458,8 @@
 		<monster name="Cyclops" x="-1" y="-1" z="7" spawntime="60" direction="2" />
 		<monster name="Cyclops Drone" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
-	<spawn centerx="675" centery="735" centerz="7" radius="1">
-		<npc name="Loot Buyer" x="-1" y="0" z="7" spawntime="60" direction="2" />
+	<spawn centerx="675" centery="736" centerz="7" radius="1">
+		<npc name="Addoner" x="-1" y="-1" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="721" centery="737" centerz="7" radius="1">
 		<monster name="Troll" x="0" y="0" z="7" spawntime="60" direction="2" />
