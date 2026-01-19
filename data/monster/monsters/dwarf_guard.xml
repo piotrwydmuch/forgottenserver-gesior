@@ -44,10 +44,10 @@
 		<item name="battle hammer" chance="4000" />
 		<item name="steel helmet" chance="1600" />
 		<item name="double axe" chance="600" />
-		<item name="iron ore" chance="510" />
+		<item name="iron ore" chance="5100" />
 		<item name="health potion" chance="400" />
 		<item name="axe ring" chance="200" />
 		<item id="13757" chance="190" /><!-- coal -->
-		<item name="small amethyst" chance="100" />
+		<item name="small amethyst" chance="1000" />
 	</loot>
 </monster>
