@@ -1006,6 +1006,43 @@
 	<spawn centerx="435" centery="234" centerz="7" radius="1">
 		<npc name="Riona" x="0" y="0" z="7" spawntime="60" direction="3" />
 	</spawn>
+	<spawn centerx="775" centery="282" centerz="7" radius="1">
+		<monster name="Dwarf" x="0" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Dwarf" x="-1" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="737" centery="292" centerz="7" radius="1">
+		<monster name="Dwarf Soldier" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Dwarf" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Dwarf" x="-1" y="1" z="7" spawntime="60" direction="2" />
+		<monster name="Dwarf" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="779" centery="292" centerz="7" radius="1">
+		<monster name="Dwarf" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Dwarf" x="-1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="748" centery="293" centerz="7" radius="1">
+		<monster name="Dwarf" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Dwarf" x="0" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="755" centery="298" centerz="7" radius="1">
+		<monster name="Dwarf" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Dwarf" x="1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Dwarf" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="745" centery="301" centerz="7" radius="1">
+		<monster name="Dwarf" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Dwarf" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Dwarf" x="-1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="761" centery="306" centerz="7" radius="1">
+		<monster name="Dwarf" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Dwarf" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="741" centery="308" centerz="7" radius="1">
+		<monster name="Dwarf" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Dwarf" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Dwarf Soldier" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="122" centery="318" centerz="7" radius="1">
 		<npc name="The Forgotten King" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
@@ -1780,11 +1817,14 @@
 	<spawn centerx="663" centery="765" centerz="7" radius="1">
 		<monster name="Bandit" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
-	<spawn centerx="543" centery="768" centerz="7" radius="1">
-		<monster name="Dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
-	</spawn>
 	<spawn centerx="653" centery="768" centerz="7" radius="1">
 		<monster name="Bandit" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="541" centery="769" centerz="7" radius="1">
+		<monster name="Dwarf Guard" x="0" y="-1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="543" centery="769" centerz="7" radius="1">
+		<monster name="Dragon" x="0" y="-1" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="545" centery="769" centerz="7" radius="1">
 		<monster name="Behemoth" x="0" y="-1" z="7" spawntime="60" direction="2" />
