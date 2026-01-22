@@ -570,6 +570,23 @@
 		<monster name="Acolyte of the Cult" x="1" y="0" z="6" spawntime="60" direction="2" />
 		<monster name="Acolyte of the Cult" x="0" y="1" z="6" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="641" centery="192" centerz="6" radius="1">
+		<monster name="Lady Bug" x="-1" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Lady Bug" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Lady Bug" x="-1" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="656" centery="197" centerz="6" radius="1">
+		<monster name="Lady Bug" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Lady Bug" x="-1" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="646" centery="199" centerz="6" radius="1">
+		<monster name="Lady Bug" x="1" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Lady Bug" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="658" centery="204" centerz="6" radius="1">
+		<monster name="Lady Bug" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Lady Bug" x="-1" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="686" centery="205" centerz="6" radius="4">
 		<monster name="Chicken" x="-3" y="-4" z="6" spawntime="60" direction="2" />
 		<monster name="Chicken" x="-2" y="-2" z="6" spawntime="60" direction="2" />
@@ -580,14 +597,30 @@
 		<monster name="Chicken" x="2" y="1" z="6" spawntime="60" direction="2" />
 		<monster name="Chicken" x="0" y="2" z="6" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="639" centery="208" centerz="6" radius="1">
+		<monster name="Lady Bug" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Lady Bug" x="1" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="648" centery="212" centerz="6" radius="1">
+		<monster name="Lady Bug" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Lady Bug" x="-1" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="702" centery="214" centerz="6" radius="1">
 		<npc name="Eryn" x="-1" y="0" z="6" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="695" centery="215" centerz="6" radius="1">
 		<monster name="Pig" x="0" y="1" z="6" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="641" centery="218" centerz="6" radius="1">
+		<monster name="Lady Bug" x="0" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Lady Bug" x="-1" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="705" centery="222" centerz="6" radius="1">
 		<npc name="Tyoric" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="641" centery="229" centerz="6" radius="1">
+		<monster name="Lady Bug" x="-1" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Lady Bug" x="0" y="0" z="6" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="698" centery="235" centerz="6" radius="1">
 		<npc name="Loot Buyer" x="0" y="0" z="6" spawntime="60" direction="2" />
@@ -1128,11 +1161,24 @@
 		<monster name="Bear" x="4" y="3" z="7" spawntime="60" direction="2" />
 		<monster name="Bear" x="2" y="4" z="7" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="659" centery="200" centerz="7" radius="1">
+		<monster name="Wolf" x="1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Wolf" x="-1" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Wolf" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="390" centery="202" centerz="7" radius="1">
 		<npc name="Deruno" x="0" y="0" z="7" spawntime="60" direction="1" />
 	</spawn>
 	<spawn centerx="474" centery="203" centerz="7" radius="1">
 		<npc name="Eryn" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="644" centery="203" centerz="7" radius="1">
+		<monster name="Wolf" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Wolf" x="1" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Wolf" x="-1" y="1" z="7" spawntime="60" direction="2" />
+		<monster name="Wolf" x="1" y="1" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="679" centery="204" centerz="7" radius="5">
 		<monster name="Bat" x="1" y="-5" z="7" spawntime="60" direction="2" />
@@ -1144,6 +1190,12 @@
 		<monster name="Bat" x="3" y="-1" z="7" spawntime="60" direction="2" />
 		<monster name="Bat" x="-5" y="0" z="7" spawntime="60" direction="2" />
 		<monster name="Bat" x="-4" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="655" centery="207" centerz="7" radius="1">
+		<monster name="Wolf" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Wolf" x="1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Wolf" x="-1" y="1" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="435" centery="234" centerz="7" radius="1">
 		<npc name="Riona" x="0" y="0" z="7" spawntime="60" direction="3" />
@@ -1725,10 +1777,18 @@
 		<monster name="Tarantula" x="-3" y="-1" z="7" spawntime="60" />
 		<monster name="Tarantula" x="1" y="2" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="910" centery="605" centerz="7" radius="1">
+		<monster name="Giant Spider" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Giant Spider" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="681" centery="608" centerz="7" radius="1">
 		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
 		<monster name="Mutated Human" x="-1" y="1" z="7" spawntime="60" direction="2" />
 		<monster name="Mutated Human" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="903" centery="612" centerz="7" radius="1">
+		<monster name="Giant Spider" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Giant Spider" x="1" y="1" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="710" centery="615" centerz="7" radius="1">
 		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
@@ -1748,6 +1808,13 @@
 		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
 		<monster name="Mutated Human" x="1" y="1" z="7" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="875" centery="618" centerz="7" radius="1">
+		<monster name="Giant Spider" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="863" centery="619" centerz="7" radius="1">
+		<monster name="Giant Spider" x="1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Giant Spider" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="713" centery="623" centerz="7" radius="1">
 		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
@@ -1755,31 +1822,64 @@
 		<monster name="Mutated Human" x="-1" y="0" z="7" spawntime="60" direction="2" />
 		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="901" centery="624" centerz="7" radius="1">
+		<monster name="Giant Spider" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="707" centery="627" centerz="7" radius="1">
 		<monster name="Mutated Human" x="-1" y="-1" z="7" spawntime="60" direction="2" />
 		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="872" centery="627" centerz="7" radius="1">
+		<monster name="Giant Spider" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="885" centery="627" centerz="7" radius="1">
+		<monster name="Giant Spider" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="908" centery="630" centerz="7" radius="1">
+		<monster name="Giant Spider" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="712" centery="633" centerz="7" radius="1">
 		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
 		<monster name="Poison Spider" x="0" y="1" z="7" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="897" centery="633" centerz="7" radius="1">
+		<monster name="Giant Spider" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="691" centery="635" centerz="7" radius="1">
 		<monster name="Mutated Human" x="0" y="-1" z="7" spawntime="60" direction="2" />
 		<monster name="Mutated Human" x="-1" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="879" centery="635" centerz="7" radius="1">
+		<monster name="Giant Spider" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="868" centery="641" centerz="7" radius="1">
+		<monster name="Tarantula" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="707" centery="642" centerz="7" radius="1">
 		<monster name="Poison Spider" x="1" y="-1" z="7" spawntime="60" direction="2" />
 		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="890" centery="643" centerz="7" radius="1">
+		<monster name="Giant Spider" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="694" centery="646" centerz="7" radius="1">
 		<monster name="Mutated Human" x="-1" y="-1" z="7" spawntime="60" direction="2" />
 		<monster name="Poison Spider" x="1" y="-1" z="7" spawntime="60" direction="2" />
 		<monster name="Mutated Human" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="905" centery="647" centerz="7" radius="1">
+		<monster name="Giant Spider" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="670" centery="649" centerz="7" radius="1">
 		<monster name="Snake" x="-1" y="-1" z="7" spawntime="60" direction="2" />
 		<monster name="Snake" x="0" y="0" z="7" spawntime="60" direction="2" />
 		<monster name="Snake" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="882" centery="652" centerz="7" radius="1">
+		<monster name="Tarantula" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="899" centery="658" centerz="7" radius="1">
+		<monster name="Tarantula" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="615" centery="688" centerz="7" radius="1">
 		<monster name="Chicken" x="0" y="0" z="7" spawntime="60" direction="2" />
@@ -1969,6 +2069,9 @@
 	<spawn centerx="695" centery="756" centerz="7" radius="1">
 		<monster name="Smuggler" x="0" y="0" z="7" spawntime="60" direction="2" />
 		<monster name="Smuggler" x="-1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="537" centery="758" centerz="7" radius="1">
+		<monster name="Giant Spider" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="696" centery="764" centerz="7" radius="1">
 		<monster name="Smuggler" x="0" y="0" z="7" spawntime="60" direction="2" />
