@@ -74,6 +74,27 @@
 	<spawn centerx="101" centery="114" centerz="4" radius="1">
 		<npc name="The Oracle" x="0" y="0" z="4" spawntime="60" />
 	</spawn>
+	<spawn centerx="617" centery="169" centerz="4" radius="1">
+		<monster name="Dark Monk" x="-1" y="0" z="4" spawntime="60" direction="2" />
+		<monster name="Enlightened of the Cult" x="-1" y="1" z="4" spawntime="60" direction="2" />
+		<monster name="Adept of the Cult" x="0" y="1" z="4" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="623" centery="171" centerz="4" radius="1">
+		<monster name="Dark Monk" x="1" y="-1" z="4" spawntime="60" direction="2" />
+		<monster name="Adept of the Cult" x="-1" y="0" z="4" spawntime="60" direction="2" />
+		<monster name="Enlightened of the Cult" x="0" y="1" z="4" spawntime="60" direction="2" />
+		<monster name="Dark Monk" x="1" y="1" z="4" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="627" centery="178" centerz="4" radius="1">
+		<monster name="Adept of the Cult" x="-1" y="-1" z="4" spawntime="60" direction="2" />
+		<monster name="Dark Monk" x="1" y="-1" z="4" spawntime="60" direction="2" />
+		<monster name="Enlightened of the Cult" x="0" y="0" z="4" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="617" centery="179" centerz="4" radius="1">
+		<monster name="Dark Monk" x="1" y="-1" z="4" spawntime="60" direction="2" />
+		<monster name="Enlightened of the Cult" x="0" y="0" z="4" spawntime="60" direction="2" />
+		<monster name="Adept of the Cult" x="1" y="0" z="4" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="747" centery="257" centerz="4" radius="1">
 		<monster name="Dwarf Guard" x="0" y="-1" z="4" spawntime="60" direction="2" />
 		<monster name="Dwarf Geomancer" x="0" y="0" z="4" spawntime="60" direction="2" />
@@ -194,8 +215,30 @@
 		<monster name="Wasp" x="-1" y="-1" z="5" spawntime="60" />
 		<monster name="Wasp" x="0" y="2" z="5" spawntime="60" />
 	</spawn>
+	<spawn centerx="623" centery="167" centerz="5" radius="1">
+		<monster name="Adept of the Cult" x="-1" y="0" z="5" spawntime="60" direction="2" />
+		<monster name="Adept of the Cult" x="1" y="0" z="5" spawntime="60" direction="2" />
+		<monster name="Acolyte of the Cult" x="0" y="1" z="5" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="628" centery="169" centerz="5" radius="1">
+		<monster name="Dark Monk" x="-1" y="0" z="5" spawntime="60" direction="2" />
+		<monster name="Enlightened of the Cult" x="1" y="0" z="5" spawntime="60" direction="2" />
+		<monster name="Dark Monk" x="0" y="1" z="5" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="560" centery="170" centerz="5" radius="1">
 		<monster name="Rat" x="0" y="0" z="5" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="617" centery="174" centerz="5" radius="1">
+		<monster name="Adept of the Cult" x="0" y="-1" z="5" spawntime="60" direction="2" />
+		<monster name="Acolyte of the Cult" x="1" y="0" z="5" spawntime="60" direction="2" />
+		<monster name="Dark Monk" x="-1" y="1" z="5" spawntime="60" direction="2" />
+		<monster name="Adept of the Cult" x="0" y="1" z="5" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="627" centery="176" centerz="5" radius="1">
+		<monster name="Adept of the Cult" x="0" y="-1" z="5" spawntime="60" direction="2" />
+		<monster name="Dark Monk" x="1" y="-1" z="5" spawntime="60" direction="2" />
+		<monster name="Acolyte of the Cult" x="1" y="0" z="5" spawntime="60" direction="2" />
+		<monster name="Adept of the Cult" x="0" y="1" z="5" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="737" centery="262" centerz="5" radius="1">
 		<monster name="Dwarf Geomancer" x="0" y="-1" z="5" spawntime="60" direction="2" />
@@ -510,15 +553,57 @@
 	<spawn centerx="558" centery="166" centerz="6" radius="1">
 		<monster name="Rat" x="0" y="0" z="6" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="618" centery="168" centerz="6" radius="1">
+		<monster name="Adept of the Cult" x="0" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Acolyte of the Cult" x="-1" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Dark Monk" x="1" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Acolyte of the Cult" x="0" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="626" centery="171" centerz="6" radius="1">
+		<monster name="Adept of the Cult" x="1" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Dark Monk" x="-1" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Acolyte of the Cult" x="1" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Acolyte of the Cult" x="0" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="622" centery="176" centerz="6" radius="1">
+		<monster name="Dark Monk" x="-1" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Acolyte of the Cult" x="1" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Acolyte of the Cult" x="0" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="686" centery="205" centerz="6" radius="4">
+		<monster name="Chicken" x="-3" y="-4" z="6" spawntime="60" direction="2" />
+		<monster name="Chicken" x="-2" y="-2" z="6" spawntime="60" direction="2" />
+		<monster name="Chicken" x="1" y="-2" z="6" spawntime="60" direction="2" />
+		<monster name="Chicken" x="0" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Chicken" x="-3" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Chicken" x="1" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Chicken" x="2" y="1" z="6" spawntime="60" direction="2" />
+		<monster name="Chicken" x="0" y="2" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="702" centery="214" centerz="6" radius="1">
+		<npc name="Eryn" x="-1" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="695" centery="215" centerz="6" radius="1">
+		<monster name="Pig" x="0" y="1" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="705" centery="222" centerz="6" radius="1">
+		<npc name="Tyoric" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="698" centery="235" centerz="6" radius="1">
+		<npc name="Loot Buyer" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="699" centery="241" centerz="6" radius="1">
+		<npc name="Riona" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="774" centery="266" centerz="6" radius="1">
 		<monster name="Dwarf Guard" x="0" y="0" z="6" spawntime="60" direction="2" />
 		<monster name="Dwarf Guard" x="-1" y="1" z="6" spawntime="60" direction="2" />
 		<monster name="Dwarf Guard" x="1" y="1" z="6" spawntime="60" direction="2" />
 	</spawn>
-	<spawn centerx="782" centery="267" centerz="6" radius="1">
-		<monster name="Dwarf Guard" x="-1" y="-1" z="6" spawntime="60" direction="2" />
-		<monster name="Dwarf Guard" x="-1" y="0" z="6" spawntime="60" direction="2" />
-		<monster name="Dwarf Guard" x="0" y="0" z="6" spawntime="60" direction="2" />
+	<spawn centerx="781" centery="267" centerz="6" radius="1">
+		<monster name="Dwarf Guard" x="0" y="-1" z="6" spawntime="60" direction="2" />
+		<monster name="Dwarf Guard" x="1" y="0" z="6" spawntime="60" direction="2" />
+		<monster name="Dwarf Guard" x="0" y="1" z="6" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="760" centery="268" centerz="6" radius="1">
 		<monster name="Dwarf Guard" x="-1" y="0" z="6" spawntime="60" direction="2" />
@@ -982,8 +1067,16 @@
 		<monster name="Snake" x="-3" y="2" z="7" spawntime="60" direction="2" />
 		<monster name="Rabbit" x="0" y="2" z="7" spawntime="180" />
 	</spawn>
+	<spawn centerx="635" centery="155" centerz="7" radius="1">
+		<monster name="Acolyte of the Cult" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Acolyte of the Cult" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="537" centery="156" centerz="7" radius="1">
 		<monster name="Snake" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="618" centery="157" centerz="7" radius="1">
+		<monster name="Acolyte of the Cult" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Acolyte of the Cult" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="533" centery="159" centerz="7" radius="1">
 		<monster name="Rat" x="0" y="0" z="7" spawntime="60" direction="2" />
@@ -991,11 +1084,49 @@
 	<spawn centerx="550" centery="159" centerz="7" radius="1">
 		<monster name="Snake" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="626" centery="160" centerz="7" radius="1">
+		<monster name="Acolyte of the Cult" x="-1" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Novice of the Cult" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Novice of the Cult" x="-1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="540" centery="168" centerz="7" radius="1">
 		<monster name="Cave Rat" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="619" centery="169" centerz="7" radius="1">
+		<monster name="Acolyte of the Cult" x="0" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Novice of the Cult" x="-1" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="627" centery="171" centerz="7" radius="1">
+		<monster name="Novice of the Cult" x="0" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Novice of the Cult" x="1" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Acolyte of the Cult" x="-1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="636" centery="172" centerz="7" radius="1">
+		<monster name="Novice of the Cult" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Novice of the Cult" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Novice of the Cult" x="-1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="620" centery="175" centerz="7" radius="1">
+		<monster name="Novice of the Cult" x="-1" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Novice of the Cult" x="1" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Novice of the Cult" x="0" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="539" centery="182" centerz="7" radius="1">
 		<monster name="Spider" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="626" centery="182" centerz="7" radius="1">
+		<monster name="Novice of the Cult" x="1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Novice of the Cult" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="698" centery="188" centerz="7" radius="6">
+		<monster name="Bear" x="0" y="-2" z="7" spawntime="60" direction="2" />
+		<monster name="Bear" x="2" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Bear" x="-2" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Bear" x="2" y="1" z="7" spawntime="60" direction="2" />
+		<monster name="Bear" x="-1" y="2" z="7" spawntime="60" direction="2" />
+		<monster name="Bear" x="1" y="2" z="7" spawntime="60" direction="2" />
+		<monster name="Bear" x="4" y="3" z="7" spawntime="60" direction="2" />
+		<monster name="Bear" x="2" y="4" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="390" centery="202" centerz="7" radius="1">
 		<npc name="Deruno" x="0" y="0" z="7" spawntime="60" direction="1" />
@@ -1003,8 +1134,25 @@
 	<spawn centerx="474" centery="203" centerz="7" radius="1">
 		<npc name="Eryn" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="679" centery="204" centerz="7" radius="5">
+		<monster name="Bat" x="1" y="-5" z="7" spawntime="60" direction="2" />
+		<monster name="Bat" x="2" y="-4" z="7" spawntime="60" direction="2" />
+		<monster name="Bat" x="3" y="-3" z="7" spawntime="60" direction="2" />
+		<monster name="Bat" x="-2" y="-2" z="7" spawntime="60" direction="2" />
+		<monster name="Bat" x="1" y="-2" z="7" spawntime="60" direction="2" />
+		<monster name="Bat" x="-3" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Bat" x="3" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Bat" x="-5" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Bat" x="-4" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="435" centery="234" centerz="7" radius="1">
 		<npc name="Riona" x="0" y="0" z="7" spawntime="60" direction="3" />
+	</spawn>
+	<spawn centerx="726" centery="234" centerz="7" radius="1">
+		<npc name="Banker" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="710" centery="237" centerz="7" radius="1">
+		<npc name="Deruno" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="775" centery="282" centerz="7" radius="1">
 		<monster name="Dwarf" x="0" y="-1" z="7" spawntime="60" direction="2" />
@@ -1814,11 +1962,28 @@
 	<spawn centerx="553" centery="753" centerz="7" radius="1">
 		<monster name="Troll" x="0" y="1" z="7" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="685" centery="756" centerz="7" radius="1">
+		<monster name="Smuggler" x="-1" y="-1" z="7" spawntime="60" direction="2" />
+		<monster name="Smuggler" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="695" centery="756" centerz="7" radius="1">
+		<monster name="Smuggler" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Smuggler" x="-1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="696" centery="764" centerz="7" radius="1">
+		<monster name="Smuggler" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Smuggler" x="1" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Smuggler" x="0" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="663" centery="765" centerz="7" radius="1">
 		<monster name="Bandit" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="653" centery="768" centerz="7" radius="1">
 		<monster name="Bandit" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="683" centery="768" centerz="7" radius="1">
+		<monster name="Smuggler" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Smuggler" x="1" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="541" centery="769" centerz="7" radius="1">
 		<monster name="Dwarf Guard" x="0" y="-1" z="7" spawntime="60" direction="2" />
@@ -1838,6 +2003,10 @@
 	<spawn centerx="666" centery="770" centerz="7" radius="1">
 		<monster name="Bandit" x="0" y="0" z="7" spawntime="60" direction="2" />
 		<monster name="Bandit" x="-1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="690" centery="773" centerz="7" radius="1">
+		<monster name="Wild Warrior" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<monster name="Wild Warrior" x="-1" y="1" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="654" centery="774" centerz="7" radius="1">
 		<monster name="Bandit" x="-1" y="0" z="7" spawntime="60" direction="2" />
@@ -2189,6 +2358,11 @@
 		<monster name="Troll" x="1" y="-1" z="8" spawntime="60" direction="2" />
 		<monster name="Troll Champion" x="0" y="0" z="8" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="687" centery="773" centerz="8" radius="1">
+		<monster name="Hunter" x="0" y="0" z="8" spawntime="60" direction="2" />
+		<monster name="Wild Warrior" x="-1" y="1" z="8" spawntime="60" direction="2" />
+		<monster name="Wild Warrior" x="1" y="1" z="8" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="76" centery="68" centerz="9" radius="5">
 		<monster name="Spider" x="-1" y="-1" z="9" spawntime="60" />
 		<monster name="Bug" x="4" y="-1" z="9" spawntime="60" />
@@ -2495,6 +2669,12 @@
 	<spawn centerx="745" centery="758" centerz="9" radius="1">
 		<monster name="Troll Champion" x="0" y="0" z="9" spawntime="60" direction="2" />
 	</spawn>
+	<spawn centerx="685" centery="776" centerz="9" radius="1">
+		<monster name="Hunter" x="-1" y="0" z="9" spawntime="60" direction="2" />
+		<monster name="Wild Warrior" x="0" y="0" z="9" spawntime="60" direction="2" />
+		<monster name="Wild Warrior" x="1" y="0" z="9" spawntime="60" direction="2" />
+		<monster name="Hunter" x="0" y="1" z="9" spawntime="60" direction="2" />
+	</spawn>
 	<spawn centerx="80" centery="81" centerz="10" radius="5">
 		<monster name="Spider" x="-3" y="-2" z="10" spawntime="60" />
 		<monster name="Bug" x="1" y="-2" z="10" spawntime="60" />
@@ -2764,6 +2944,30 @@
 	<spawn centerx="112" centery="479" centerz="11" radius="5">
 		<monster name="Mummy" x="2" y="0" z="11" spawntime="60" />
 		<monster name="Mummy" x="-1" y="2" z="11" spawntime="60" />
+	</spawn>
+	<spawn centerx="658" centery="707" centerz="11" radius="1">
+		<monster name="Giant Spider" x="0" y="0" z="11" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="663" centery="713" centerz="11" radius="1">
+		<monster name="Poison Spider" x="0" y="0" z="11" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="677" centery="720" centerz="11" radius="1">
+		<monster name="Poison Spider" x="0" y="0" z="11" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="713" centery="735" centerz="11" radius="1">
+		<monster name="Poison Spider" x="0" y="0" z="11" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="691" centery="745" centerz="11" radius="1">
+		<monster name="Poison Spider" x="0" y="0" z="11" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="667" centery="747" centerz="11" radius="1">
+		<monster name="Poison Spider" x="0" y="0" z="11" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="657" centery="752" centerz="11" radius="1">
+		<monster name="Poison Spider" x="0" y="0" z="11" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="668" centery="760" centerz="11" radius="1">
+		<monster name="Poison Spider" x="0" y="0" z="11" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="60" centery="107" centerz="12" radius="5">
 		<monster name="Rotworm" x="-1" y="-2" z="12" spawntime="60" />
