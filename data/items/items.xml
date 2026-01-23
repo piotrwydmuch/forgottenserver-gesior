@@ -3460,7 +3460,7 @@
 		<attribute key="extradef" value="1" />
 		<!-- Tests for condition damage -->
 		<attribute key="initdamage" value="20" />
-		<attribute key="ticks" value="10000" />
+		<attribute key="ticks" value="1000" />
 		<attribute key="count" value="7" />
 		<attribute key="damage" value="10" />
 	</item>
