@@ -134,6 +134,10 @@ const std::unordered_map<std::string, ItemParseAttributes_t> ItemParseAttributes
 	{"blocking", ITEM_PARSE_BLOCKING},
 	{"allowdistread", ITEM_PARSE_ALLOWDISTREAD},
 	{"storeitem", ITEM_PARSE_STOREITEM},
+	{"initdamage", ITEM_PARSE_WEAPON_INITDAMAGE},
+	{"ticks", ITEM_PARSE_WEAPON_TICKS},
+	{"count", ITEM_PARSE_WEAPON_COUNT},
+	{"damage", ITEM_PARSE_WEAPON_DAMAGE},
 };
 
 const std::unordered_map<std::string, ItemTypes_t> ItemTypesMap = {
@@ -560,6 +564,14 @@ void Items::parseItemNode(const pugi::xml_node& itemNode, uint16_t id)
 	}
 
 	Abilities& abilities = it.getAbilities();
+
+	// Temporary variables for weapon condition damage parsing
+	uint32_t weaponTicks = 0;
+	int32_t weaponStart = 0;
+	int32_t weaponCount = 1;
+	int32_t weaponInitDamage = -1;
+	int32_t weaponDamage = 0;
+	bool hasWeaponConditionDamage = false;
 
 	for (auto attributeNode : itemNode.children()) {
 		pugi::xml_attribute keyAttribute = attributeNode.attribute("key");
@@ -1355,6 +1367,30 @@ void Items::parseItemNode(const pugi::xml_node& itemNode, uint16_t id)
 					break;
 				}
 
+				case ITEM_PARSE_WEAPON_INITDAMAGE: {
+					weaponInitDamage = pugi::cast<int32_t>(valueAttribute.value());
+					hasWeaponConditionDamage = true;
+					break;
+				}
+
+				case ITEM_PARSE_WEAPON_TICKS: {
+					weaponTicks = pugi::cast<uint32_t>(valueAttribute.value());
+					hasWeaponConditionDamage = true;
+					break;
+				}
+
+				case ITEM_PARSE_WEAPON_COUNT: {
+					weaponCount = std::max<int32_t>(1, pugi::cast<int32_t>(valueAttribute.value()));
+					hasWeaponConditionDamage = true;
+					break;
+				}
+
+				case ITEM_PARSE_WEAPON_DAMAGE: {
+					weaponDamage = -pugi::cast<int32_t>(valueAttribute.value());
+					hasWeaponConditionDamage = true;
+					break;
+				}
+
 				default: {
 					// It should not ever get to here, only if you add a new key to the map and don't configure a case for it.
 					std::cout << "[Warning - Items::parseItemNode] Not configured key value: " << keyAttribute.as_string() << std::endl;
@@ -1363,6 +1399,28 @@ void Items::parseItemNode(const pugi::xml_node& itemNode, uint16_t id)
 			}
 		} else {
 			std::cout << "[Warning - Items::parseItemNode] Unknown key value: " << keyAttribute.as_string() << std::endl;
+		}
+	}
+
+	// Create condition damage for weapons
+	if (hasWeaponConditionDamage && it.weaponType != WEAPON_NONE && it.weaponType != WEAPON_SHIELD && it.weaponType != WEAPON_AMMO) {
+		ConditionDamage* conditionDamage = new ConditionDamage(CONDITIONID_COMBAT, CONDITION_BLEEDING);
+		
+		if (weaponTicks > 0 && weaponDamage != 0) {
+			conditionDamage->addDamage(weaponCount, weaponTicks, weaponDamage);
+		}
+		
+		if (weaponInitDamage > 0) {
+			conditionDamage->setInitDamage(-weaponInitDamage);
+		} else if (weaponInitDamage == -1 && weaponStart != 0) {
+			conditionDamage->setInitDamage(weaponStart);
+		}
+		
+		if (conditionDamage->getTotalDamage() > 0) {
+			conditionDamage->setParam(CONDITION_PARAM_FORCEUPDATE, 1);
+			it.conditionDamage.reset(conditionDamage);
+		} else {
+			delete conditionDamage;
 		}
 	}
 
