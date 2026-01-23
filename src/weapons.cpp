@@ -377,14 +377,6 @@ void Weapon::internalUseWeapon(Player* player, Item* item, Creature* target, int
 		damage.secondary.type = getElementType();
 		damage.secondary.value = getElementDamage(player, target, item);
 		Combat::doTargetCombat(player, target, damage, params);
-		
-		// Apply condition damage from weapon if present
-		const ItemType& it = Item::items[item->getID()];
-		if (it.conditionDamage) {
-			Condition* conditionCopy = it.conditionDamage->clone();
-			conditionCopy->setParam(CONDITION_PARAM_OWNER, player->getID());
-			target->addCombatCondition(conditionCopy);
-		}
 	}
 
 	onUsedWeapon(player, item, target->getTile());
@@ -535,6 +527,12 @@ void WeaponMelee::configureWeapon(const ItemType& it)
 		elementType = COMBAT_NONE;
 		elementDamage = 0;
 	}
+	
+	// Add condition damage from weapon if present
+	if (it.conditionDamage) {
+		params.addCondition(it.conditionDamage->clone());
+	}
+	
 	Weapon::configureWeapon(it);
 }
 

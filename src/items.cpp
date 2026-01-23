@@ -1416,7 +1416,9 @@ void Items::parseItemNode(const pugi::xml_node& itemNode, uint16_t id)
 			conditionDamage->setInitDamage(weaponStart);
 		}
 		
-		if (conditionDamage->getTotalDamage() > 0) {
+		// Check if condition has any damage (either from damageList or initDamage)
+		bool hasDamage = (weaponTicks > 0 && weaponDamage != 0) || (weaponInitDamage > 0);
+		if (hasDamage) {
 			conditionDamage->setParam(CONDITION_PARAM_FORCEUPDATE, 1);
 			it.conditionDamage.reset(conditionDamage);
 		} else {
