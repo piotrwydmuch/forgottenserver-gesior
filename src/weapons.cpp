@@ -530,7 +530,7 @@ void WeaponMelee::configureWeapon(const ItemType& it)
 	
 	// Add condition damage from weapon if present
 	if (it.conditionDamage) {
-		params.addCondition(it.conditionDamage->clone());
+		params.conditionList.emplace_front(it.conditionDamage->clone());
 	}
 	
 	Weapon::configureWeapon(it);
