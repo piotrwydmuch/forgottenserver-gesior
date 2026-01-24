@@ -13688,6 +13688,12 @@
 		<attribute key="charges" value="1000" />
 		<attribute key="showcharges" value="1" />
 		<attribute key="decayTo" value="2383" />
+		<!-- Tests for condition damage -->
+		<attribute key="initdamage" value="10" />
+		<attribute key="ticks" value="2000" />
+		<attribute key="count" value="7" />
+		<attribute key="damage" value="10" />
+		<attribute key="conditiontype" value="fire" />
 	</item>
 	<item id="7745" article="a" name="fiery relic sword">
 		<attribute key="weight" value="4800" />
@@ -13866,10 +13872,11 @@
 		<attribute key="showcharges" value="1" />
 		<attribute key="decayTo" value="2383" />
 		<!-- Tests for condition damage -->
-		<attribute key="initdamage" value="20" />
+		<attribute key="initdamage" value="10" />
 		<attribute key="ticks" value="2000" />
 		<attribute key="count" value="7" />
 		<attribute key="damage" value="10" />
+		<attribute key="conditiontype" value="ice" />
 	</item>
 	<item id="7764" article="an" name="icy relic sword">
 		<attribute key="weight" value="4800" />

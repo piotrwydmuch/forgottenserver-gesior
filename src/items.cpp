@@ -138,6 +138,7 @@ const std::unordered_map<std::string, ItemParseAttributes_t> ItemParseAttributes
 	{"ticks", ITEM_PARSE_WEAPON_TICKS},
 	{"count", ITEM_PARSE_WEAPON_COUNT},
 	{"damage", ITEM_PARSE_WEAPON_DAMAGE},
+	{"conditiontype", ITEM_PARSE_WEAPON_CONDITIONTYPE},
 };
 
 const std::unordered_map<std::string, ItemTypes_t> ItemTypesMap = {
@@ -571,6 +572,7 @@ void Items::parseItemNode(const pugi::xml_node& itemNode, uint16_t id)
 	int32_t weaponCount = 1;
 	int32_t weaponInitDamage = -1;
 	int32_t weaponDamage = 0;
+	ConditionType_t weaponConditionType = CONDITION_BLEEDING; // Default to physical damage
 	bool hasWeaponConditionDamage = false;
 
 	for (auto attributeNode : itemNode.children()) {
@@ -1391,6 +1393,26 @@ void Items::parseItemNode(const pugi::xml_node& itemNode, uint16_t id)
 					break;
 				}
 
+				case ITEM_PARSE_WEAPON_CONDITIONTYPE: {
+					tmpStrValue = asLowerCaseString(valueAttribute.as_string());
+					if (tmpStrValue == "physical" || tmpStrValue == "bleeding") {
+						weaponConditionType = CONDITION_BLEEDING;
+					} else if (tmpStrValue == "fire") {
+						weaponConditionType = CONDITION_FIRE;
+					} else if (tmpStrValue == "ice" || tmpStrValue == "freezing") {
+						weaponConditionType = CONDITION_FREEZING;
+					} else if (tmpStrValue == "energy") {
+						weaponConditionType = CONDITION_ENERGY;
+					} else if (tmpStrValue == "earth" || tmpStrValue == "poison") {
+						weaponConditionType = CONDITION_POISON;
+					} else {
+						std::cout << "[Warning - Items::parseItemNode] Unknown conditiontype value: " << valueAttribute.as_string() << ", using default (physical)" << std::endl;
+						weaponConditionType = CONDITION_BLEEDING;
+					}
+					hasWeaponConditionDamage = true;
+					break;
+				}
+
 				default: {
 					// It should not ever get to here, only if you add a new key to the map and don't configure a case for it.
 					std::cout << "[Warning - Items::parseItemNode] Not configured key value: " << keyAttribute.as_string() << std::endl;
@@ -1404,7 +1426,7 @@ void Items::parseItemNode(const pugi::xml_node& itemNode, uint16_t id)
 
 	// Create condition damage for weapons
 	if (hasWeaponConditionDamage && it.weaponType != WEAPON_NONE && it.weaponType != WEAPON_SHIELD && it.weaponType != WEAPON_AMMO) {
-		ConditionDamage* conditionDamage = new ConditionDamage(CONDITIONID_COMBAT, CONDITION_BLEEDING);
+		ConditionDamage* conditionDamage = new ConditionDamage(CONDITIONID_COMBAT, weaponConditionType);
 		
 		if (weaponTicks > 0 && weaponDamage != 0) {
 			conditionDamage->addDamage(weaponCount, weaponTicks, weaponDamage);
