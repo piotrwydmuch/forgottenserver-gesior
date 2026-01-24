@@ -3458,11 +3458,6 @@
 		<attribute key="attack" value="16" />
 		<attribute key="weaponType" value="sword" />
 		<attribute key="extradef" value="1" />
-		<!-- Tests for condition damage -->
-		<attribute key="initdamage" value="20" />
-		<attribute key="ticks" value="1000" />
-		<attribute key="count" value="7" />
-		<attribute key="damage" value="10" />
 	</item>
 	<item id="2413" article="a" name="broadsword">
 		<attribute key="weight" value="5250" />
@@ -13870,6 +13865,11 @@
 		<attribute key="charges" value="1000" />
 		<attribute key="showcharges" value="1" />
 		<attribute key="decayTo" value="2383" />
+		<!-- Tests for condition damage -->
+		<attribute key="initdamage" value="20" />
+		<attribute key="ticks" value="2000" />
+		<attribute key="count" value="7" />
+		<attribute key="damage" value="10" />
 	</item>
 	<item id="7764" article="an" name="icy relic sword">
 		<attribute key="weight" value="4800" />
