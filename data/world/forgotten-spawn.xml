@@ -1885,9 +1885,6 @@
 		<monster name="Cyclops Smith" x="0" y="0" z="7" spawntime="60" direction="2" />
 		<monster name="Cyclops Drone" x="1" y="1" z="7" spawntime="60" direction="2" />
 	</spawn>
-	<spawn centerx="655" centery="702" centerz="7" radius="1">
-		<npc name="Riona" x="0" y="0" z="7" spawntime="60" />
-	</spawn>
 	<spawn centerx="834" centery="704" centerz="7" radius="1">
 		<monster name="Cyclops" x="0" y="0" z="7" spawntime="60" direction="2" />
 		<monster name="Cyclops" x="-1" y="1" z="7" spawntime="60" direction="2" />
@@ -1943,6 +1940,9 @@
 	<spawn centerx="811" centery="719" centerz="7" radius="1">
 		<monster name="Cyclops Smith" x="0" y="0" z="7" spawntime="60" direction="2" />
 		<monster name="Cyclops Drone" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="673" centery="720" centerz="7" radius="1">
+		<npc name="Riona" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="882" centery="720" centerz="7" radius="1">
 		<monster name="Cyclops Smith" x="0" y="0" z="7" spawntime="60" direction="2" />
