@@ -13691,7 +13691,7 @@
 		<!-- Tests for condition damage -->
 		<attribute key="initdamage" value="10" />
 		<attribute key="ticks" value="2000" />
-		<attribute key="count" value="7" />
+		<attribute key="count" value="3" />
 		<attribute key="damage" value="10" />
 		<attribute key="conditiontype" value="fire" />
 	</item>
@@ -13874,7 +13874,7 @@
 		<!-- Tests for condition damage -->
 		<attribute key="initdamage" value="10" />
 		<attribute key="ticks" value="2000" />
-		<attribute key="count" value="7" />
+		<attribute key="count" value="3" />
 		<attribute key="damage" value="10" />
 		<attribute key="conditiontype" value="ice" />
 	</item>
@@ -14294,6 +14294,12 @@
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="shootType" value="flasharrow" />
 		<attribute key="maxHitChance" value="91" />
+		<!-- Tests for condition damage -->
+		<attribute key="initdamage" value="10" />
+		<attribute key="ticks" value="2000" />
+		<attribute key="count" value="3" />
+		<attribute key="damage" value="10" />
+		<attribute key="conditiontype" value="energy" />
 	</item>
 	<item id="7839" article="a" name="shiver arrow">
 		<attribute key="weight" value="70" />
@@ -14304,6 +14310,12 @@
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="shootType" value="shiverarrow" />
 		<attribute key="maxHitChance" value="91" />
+		<!-- Tests for condition damage -->
+		<attribute key="initdamage" value="10" />
+		<attribute key="ticks" value="2000" />
+		<attribute key="count" value="3" />
+		<attribute key="damage" value="10" />
+		<attribute key="conditiontype" value="ice" />
 	</item>
 	<item id="7840" article="a" name="flaming arrow">
 		<attribute key="weight" value="70" />
@@ -14314,6 +14326,12 @@
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="shootType" value="flammingarrow" />
 		<attribute key="maxHitChance" value="91" />
+		<!-- Tests for condition damage -->
+		<attribute key="initdamage" value="10" />
+		<attribute key="ticks" value="2000" />
+		<attribute key="count" value="3" />
+		<attribute key="damage" value="10" />
+		<attribute key="conditiontype" value="fire" />
 	</item>
 	<item id="7841" article="a" name="straw mat">
 		<attribute key="type" value="bed" />
@@ -14363,6 +14381,12 @@
 		<attribute key="shootType" value="eartharrow" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="maxHitChance" value="91" />
+		<!-- Tests for condition damage -->
+		<attribute key="initdamage" value="10" />
+		<attribute key="ticks" value="2000" />
+		<attribute key="count" value="3" />
+		<attribute key="damage" value="10" />
+		<attribute key="conditiontype" value="earth" />
 	</item>
 	<item fromid="7851" toid="7853" article="a" name="buttress" />
 	<item id="7854" article="an" name="earth spike sword">
