@@ -1424,8 +1424,8 @@ void Items::parseItemNode(const pugi::xml_node& itemNode, uint16_t id)
 		}
 	}
 
-	// Create condition damage for weapons
-	if (hasWeaponConditionDamage && it.weaponType != WEAPON_NONE && it.weaponType != WEAPON_SHIELD && it.weaponType != WEAPON_AMMO) {
+	// Create condition damage for weapons (including ammo and wands)
+	if (hasWeaponConditionDamage && it.weaponType != WEAPON_NONE && it.weaponType != WEAPON_SHIELD) {
 		ConditionDamage* conditionDamage = new ConditionDamage(CONDITIONID_COMBAT, weaponConditionType);
 		
 		if (weaponTicks > 0 && weaponDamage != 0) {

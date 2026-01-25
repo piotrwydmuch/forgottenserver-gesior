@@ -627,6 +627,11 @@ void WeaponDistance::configureWeapon(const ItemType& it)
 		elementType = COMBAT_NONE;
 		elementDamage = 0;
 	}
+	
+	// Add condition damage from weapon/ammo if present
+	if (it.conditionDamage) {
+		params.conditionList.emplace_front(it.conditionDamage->clone());
+	}
 
 	Weapon::configureWeapon(it);
 }
@@ -921,6 +926,11 @@ bool WeaponWand::configureEvent(const pugi::xml_node& node)
 void WeaponWand::configureWeapon(const ItemType& it)
 {
 	params.distanceEffect = it.shootType;
+
+	// Add condition damage from wand if present
+	if (it.conditionDamage) {
+		params.conditionList.emplace_front(it.conditionDamage->clone());
+	}
 
 	Weapon::configureWeapon(it);
 }
